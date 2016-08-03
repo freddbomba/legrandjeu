@@ -1,8 +1,7 @@
 # legrandjeu
-# a table game as a forkable set of rules for infinite games of this type.
-# Implements with ease of modeling concepts from 
-# partecipatory democracy, free software, complementary currencies, role playing game, sutainable energy
-# and permaculture
+a table game as a forkable set of rules for infinite games of this type.
+Implements concepts from partecipatory democracy, free software, complementary currencies, role playing game, sutainable energy
+and permaculture
 
 the game is a concept and an idea by Federico Bonelli (c)2016
 www.legrandjeu.net
