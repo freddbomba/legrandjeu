@@ -1,27 +1,30 @@
-Note sulle prime sei piu uno iterazioni del gioco.
-Prese ad Amsterdam il 16 luglio 2016 
-dopo la sessione a Milano ospitata da Macao.
---------------------------------------------------------------------------
+--------------------------------------------------------------------
 SCOPO DEL GIOCO
 
-Lo scopo del gioco e´ raccontare le societa' future. Sostenibilita´ e´ un concetto portante. Ma come la si esperimenta? Non e' facile insegnare un contesto trasversale che riusnisca gli arcipelaghi di questo mondo auspicato e a volte lontano. Una narrativa positiva manca. E allora bisogna scendere a giocare con gli artisti, gli sciamani, i makers, i nerd spostati, imparare cose fuori delle scule, degli uffici e delle officine. Allontanarsi dalle dottrine economiche che sembrano muri grigi su cui la vita umana puo'solo schiantarsi a 150 km/h...
+Lo scopo del gioco e´ raccontare le societa' future. 
 
-Lo scopo del gioco e´ imparare a simulare una societa´ felice e resiliente a partire da poche variabili. E poi espandere e costruire. Il metodo e'quello del trasformatorio. Simulare per apprendere, tenere di conto la situazione da cui si parte, le persone con cui si sta´, costruire un attivita´ che le rappresenti cambiando le energie. Ripulendole.,
+La sostenibilita´ e´ un concetto portante per immaginarci il nostro domani. Ma come la si esperimenta? Non e' facile insegnare le discipline trasversali che cercano di riunire gli arcipelaghi di questo mondo auspicato e a volte ancora lontano. Una narrativa positiva manca. O e'fatta da specialisti con I loro linguaggi ostici. E allora? Bisogna scendere e sporcarsi un po´ le mani per capire. Andare a giocare con gli artisti, gli sciamani, i makers, i nerd spostati, imparare cose fuori delle scuole, dagli uffici e dalle officine. Allontanarsi dalle dottrine economiche ancora insegnate come attuali, che sembrano muri grigi su cui la vita umana puo'solo schiantarsi a 150 km/h... Ricercare e costruirsi delle zone di buon senso in cui capirsi tra simili.
 
-Lo scopo del gioco e' anche immaginare un mondo retto da un economia differente. Collaborativa e solidale, dove il piccolo gioco, il locale, ha effetto sul grande gioco globale cambiandolo radicalmente. Per questo si trovano nel gioco degli strumenti tecnologici come le criptomonete. Non sono pero´ li per indicare la ¨salvezza e´ nella tecnica¨. 
+Lo scopo del gioco e´ imparare a simulare queste comunita´ felici e resistenti alle calamita'umane e naturali, a partire da poche variabili. E poi, una volta capite, espandere e costruire nuovi mondi immaginari. 
+Il metodo e'quello del trasformatorio. Simulare per apprendere, tenere di conto la situazione da cui si parte, le persone con cui si sta´, costruire un attivita´ che le rappresenti cambiando le energie. Ripulendole e raffinandole. 
+
+Lo scopo del gioco e' anche immaginare un mondo diverso, retto da un economia differente e piu´ solidale. Dove collaborare e aiutarsi convenga, dove il piccolo gioco, il locale, ha effetto sul grande gioco globale cambiandolo radicalmente. Per questo si trovano nel gioco degli strumenti tecnologici come le criptomonete, o la democrazia diretta o l´energia a basso costo. Non sono strumenti messi li per indicare la ¨salvezza e´ nella tecnica¨. 
 La salvezza, se esiste, e´ nell´ ímmaginazione.
 
-Ad ultimo nel gioco ogni giocatore mette alla prova le sue idee sulla sostenibilita´. Il suo sogno di uscire dai vincoli del ¨Gran Gioco¨, quello che i ¨Grandi¨ fanno sulla sua testa, su tavoli enormi fuori dalla sua portata. Il gioco consente di simulare efficacemente le possibilita´ di vita al di fuori della follia etica della societa´ finanziaria e capitalista, o di portarla al parossismo, alla estrema conseguenza. Pensa globale agisci locale, uno dei mantra che riassumono in se l´unica cifra etica della generazione X. Cercare di portare la societa´ in decomposizione ad una transizione anziche´ alla dissoluzione. 
+Ad ultimo nel gioco ogni giocatore mette alla prova le sue idee sulla sostenibilita´. Il suo sogno, forse di uscire dai vincoli del ¨Gran Gioco¨ quello che i ¨Grandi¨ fanno sulla sua testa, su tavoli enormi fuori dalla sua portata. 
+Il Grand Jeu consente di simulare efficacemente le possibilita´ di vita al di fuori della follia etica della societa´ finanziaria e capitalista, o se si vuole di portarla al parossismo, alla estrema conseguenza, provando a simularne sogni e incubi. 
+¨Pensa globale agisci locale¨, uno dei mantra che riassumono in se, a mio avviso, l´unica cifra etica della generazione X. Cercare con ogni strumento immaginabile di portare la societa´ in decomposizione ad una transizione anziche´ alla dissoluzione. 
 
 
 COME SI VINCE
+Spesso la prima domanda dei giocatori e´: ¨come si vince?¨. 
 Cosa e´ la vittoria in un ecosistema? La sopravvivenza? Il propagare i geni vincenti nelle generazioni successive? Eradicare la poverta´? 
 Molte dottrine economiche sono basate su di una definizione di Felicita´. A 19 anni mi scrissi una frase di Gregory Bateson su un quadernetto che ancora ho."L´intelligenza e´ la capacita´ dell´individuo di adattarsi al proprio ambiente, o meglio, di danzare con esso.¨.
 La ripeto spesso.
 Dalla definizione di vittoria si determinano le strategie di gioco iniziali, e lídea che del gioco si fanno i primi giocatori. 
 
-
-Diamo alcuni esempi nella tabella 1.
+===========================================================
+Diamo alcuni esempi di ¨regole di vittoria¨ nella tabella 1.
 
 1. Vince chi ha piu´ bianchi
 2. Vince chi a detta degli altri giocatori e del master ha giocato meglio
@@ -31,7 +34,16 @@ Diamo alcuni esempi nella tabella 1.
 6. Continuate a giocare
 
 (il master tira un d6 e decide il tipo di vittoria)
+==========================================================
 
+
+
+I GIOCATORI: 
+Il gioco e'per 4/6 giocatori.  Un ¨Maestro del gioco¨ e da 3 a 5 giocatori.
+
+IL MAESTRO DEL GIOCO
+Un giocatore piu'espero o estratto a caso assume il ruolo di Maestro del gioco.
+Il Maestro gioca per il mondo, tiene i conti e fa rispettare le regole, e soprattutto presiede alla creazione di nuove regole e tiene annotazioni sul libro del gioco. In generale il maestro del gioco dovrebbe aver conoscenza della fisica di base, di economia politica e sufficente immaginazione da poter far giocare una partita verosimile. Scopo del gioco e´ comunque divertirsi, per cui anche la verisimiglianza puo´ essere sacrificata in funzione di una bella partita.
 
 IL PIANO DI GIOCO
 Il piano di gioco si scarica online o si disegna, e e´ stampabile con un taglio a laser su una board. Se volete potete customizzarlo durante le varie partite. Dopo un certo numero di giocate nessun gioco e´ comunque uguale all´altro nei dettagli, perche´ e´ comunque parte del disegno e previsto un certo numero di cambiamenti che portera´ i vari Maestri del gioco a cambiarlo, facendo divergere un tavolo e le sue regole dall´altro.
@@ -42,6 +54,10 @@ LA RETE
 La rete e´ la porzione di mondo giocabile, rapresenta la micro economia di transizione, a seconda del tipo di gioco e delle decisioni dei giocatori sara' piu' o meno resiliente e piu´ o meno felici i suoi abitanti.
 Rappresenta il ¨piccolo gioco¨ e le attivita'dei suoi abitanti in quanto persone, non gruppi enormi o astrazioni, ma esseri umani.
 Le infrastrutture che la popoleranno nel tempo possono rimanerci attaccate disegnando o colorando i triangoli in modo indelebile. Se un giocatore per esempio vuole realizzare un tunnel o un canale, e ci riesce, il master puo'decidere che la struttura rimanga anche per future partite, e disegnarla sulla rete di gioco.
+La rete rappresenta tre elementi: la rete dei servizi energetici di scambio elettrico e raccolta di rifiuti, la rete internet per lo scambio di informazione, la rete di movimento di oggetti (la posta). Sono tutti ¨dati¨, che possono essere modellizzati con uno scambio di danaro. 
+
+Sul piano di gioco inoltre vengono incluse zone off-the grid, per cui varranno regole particolari.
+
 I triangoli possono condividere il lato, e quindi essere adiacenti, o essere uniti per un vertice soltanto e quindi essere fisicamente lontani ma legati. E´ la caratteristica della rete: darci la possibilita'di aggiungere una dimensione spaziale in piu´: il connesso. Due localita´ possono essere lontane e quindi non scambiare direttamente energia o necessitare di trasporto per scambiare materiali ma connesse, quindi operare come un solo ente. E' parte dell´economia che vogliamo simulare aver messo a disposizione delle persone mezzi per incrementare le possibilita' dell´economia immateriale ma connessa di influire sul mondo e evocare a se risorse materiali. Il principale mezzo a disposizione per farlo nel gioco e´ il coin.
 
 Triangoli a distanza sono in rete ma per essere ¨attivati¨ hanno bisogno della presenza del giocatore. 
@@ -51,23 +67,23 @@ Ogni maglia corrisponde circa ad un area di terreno (o risorsa di spazio in una 
 
 I triangoli che compongono la rete e ne sono l´unita'minima hanno farie funzioni.
 
-IL MAESTRO DEL GIOCO
-Un giocatore piu'espero o estratto a caso assume il ruolo di Maestro del gioco.
-Il Maestro gioca per il mondo, tiene i conti e fa rispettare le regole, e soprattutto presiede alla creazione di nuove regole e tiene annotazioni sul libro del gioco. In generale il maestro del gioco dovrebbe aver conoscenza della fisica di base, di economia politica e sufficente immaginazione da poter far giocare una partita verosimile. Scopo del gioco e´ comunque divertirsi, per cui anche la verisimiglianza puo´ essere sacrificata in funzione di una bella partita.
+
 
 IL LIBRO DEL GIOCO
 Un libriccino da portarsi dietro su cui annotare le regole, nuove invenzioni, il comportamento del gruppo e gli esiti delle assemblee. Puo´ anche essere passato di maestro in maestro e rimanere attaccato al gioco, insieme ai pezzi che lo compongono per tenere memoria delle partite.
 
 Il MODELLO DI MONDO
+Il modello di mondo scelto in genere per iniziare e´ quello del ¨vado a vivere in camapgna, con un poco di terra che posso coltivare o su cui investire, e dove posso raccogliere energia con metodi alternativi.
+Possono essere modellizzate nel grand jeu anche situazioni differenti: la smart city, l´economia pirata, il disastro ambientale in zona suburbana etcetera…
 
 IL MOVIMENTO
 Il movimento e'stato lasciato da modellizzare a delle ulteriori iterazioni del disegno del gioco.
 
 IL DANARO
-Nel mondo del tardo XX secolo, fino almeno alla meta'degli anni ´90, il denaro era una misura di desiderio. Il desiderio che definiva la possibilita´ di felicita´ nella societa´ dei consumi era descritto da targhette con il prezzo misurato in danaro. In seguito, nel periodo successivo alla crisi del 2001/2012 il danaro e´, alla percezione comune ma anche per la politica e la finanza, diventato unita´ di misura del debito. Dellénorme foro nel pianeta che l´attivita´ umana sta´ modificando, come un enorme e irreversibile fresa in una miniera di carbone a cielo aperto, depauperandolo di risorse fino a distruggerne completamente gli equilibri che permettono la presenza di una biosfera.
-Per 
-soldi bianchi
-soldi neri
+Nel mondo del tardo XX secolo, fino almeno alla meta'degli anni ´90, il denaro era una misura di desiderio. Il desiderio che definiva la possibilita´ di felicita´ nella societa´ dei consumi era descritto da targhette con il prezzo misurato in danaro. In seguito, nel periodo successivo alla crisi del 2001/2012 il danaro e´, alla percezione comune ma anche per la politica e la finanza, diventato unita´ di misura del debito. Dell´énorme foro nel pianeta che l´attivita´ umana sta´ modificando, come un enorme e irreversibile fresa in una miniera di carbone a cielo aperto, depauperandolo di risorse fino a distruggerne completamente gli equilibri che permettono la presenza di una biosfera.
+
+Per Le grand jeu abbiamo introdotto due alternative currencies. La moneta bianca, legata alla produzione di energia verde, o di prodotti biologici o attivita'lavorative e sociali. La moneta nera, legata allo spreco, alla realizzazzione di prodotti ad alta entropia o a rifiuti. La moneta del negativo.
+
 
 LE FILIERE
 
@@ -85,18 +101,12 @@ Godi impone la festa, la presenza di colori, pezzettini di materiale geometrico,
 E´ possibile premiare il giocatore che abbia impersonato meglio alcuni canoni estetici...
 
 IL TURNO DI GIOCO
-Il turno e´ lungo. Si puo´ occupare il tempo tra un giocatore e l´altro con piccoli tasks. Ricordare tutto cioo'che accade per il master e´ un bell´esercizio di attenzione.
+Il turno e´ lungo. Si puo´ occupare il tempo tra un giocatore e l´altro con piccoli tasks. Ricordare tutto cio'che accade per il master e´ un bell´esercizio di attenzione ma anche di organizzazzione. Ussare appunti al colo, segnalini, pezzetti di carte colorate o sistemi informatizzati e´ parte del suo lavoro…
 
 
- (FIRST DRAFT)
-UN PO DI FILOSOFIA
+=================================
 
-Numerologia: diamo i numeri!
-Legge del 3, lo strano status del 5, la potenza evocativa del 7, la follia dell´11 e via discorrendo di numeri e probabilita´.
-
-La legge del 3 e´ una legge dinamica. Vuole che tra due enti attivi sia necessario aggiungere  un terzo ente per avere un comportamento dinamico. Non si tratta di una legge fisica, ma di un osservazione metafisica, e per tanto soggetta a uno status differente da quello di una legge fisica. Ha pero´ delle corrispondenti nel reame della fisica e dello studio matematico della dinamica dei sistemi complessi.  Per esempio l´osservazione che non e´ possibile in natura tenere due sistemi isolati. Emerge sempre la possibilita'che delle catene causali si influenzino a vicenda. E´ anche impossibile dirimere stati teorico fisici della materia e dellénergia tra loro senza la presenza dellósservatore etc.
-
-Ai fini del gioco osserveremo pero´ semplicemente che per rendere funzionale alla novita´ la simulazione e quindi la dinamica e´ necessario sempre tener presente la possibilita´ di aggiungere una terza forza per redimere i contrasti o per crearne di produttivi o di distruttivi.
+APPENDICE INUTILE DI TIPO FILOSOFICO
 
 
 
