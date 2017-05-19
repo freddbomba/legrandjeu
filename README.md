@@ -4,7 +4,7 @@ Implements concepts from partecipatory democracy, free software, complementary c
 and permaculture
 
 the game is a concept and an idea by Federico Bonelli (c)2016
-and lead design is Federico Bonelli and Raffaella Rovida
+* lead design is by Federico Bonelli and Raffaella Rovida
 
 www.legrandjeu.net
 
