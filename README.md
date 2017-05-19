@@ -4,6 +4,8 @@ Implements concepts from partecipatory democracy, free software, complementary c
 and permaculture
 
 the game is a concept and an idea by Federico Bonelli (c)2016
+and lead design is Federico Bonelli and Raffaella Rovida
+
 www.legrandjeu.net
 
 produced by
@@ -11,25 +13,25 @@ Dyne.org, CIID.dk, Macao
 
 
 - Lead: Federico Bonelli (trasfomatorio dyne.org)
-- Co-designer: Raffaella Ravida (Ciid.dk)
+- Co-designed by: Raffaella Ravida (Ciid.dk) and Federico Bonelli
 
 * Consultant for Coin: Marco Sachy dyne.org
 * Consultant for Energy: Alex D´Elia daje.eu
 * Graphic Design: Maddalena Fragnito
 * Line Production in Milan: Maddalena Fragnito, Emanuele Braga (MACAO)
+* Line production in Venice (iteration 8) Marco Baravalle (Sale DOKS)
 * Webadmin: firegarden (dyne.org)
 
 ## Presenti alle sessioni di design MACAO (9-14 Luglio 2016) ITER 1-6 e giocatori attivi:
 Federico Bonelli, Raffaella Rovida, Maddalena Fragnito, Marco Sachy, Emanuele Braga, Camilla Pin, Andrea Masu, Costantino Buongiorno, Zoe Romano, Diego Weisz, Manuela Casiraghi 
 
-Giocatori:
-Master:
 
 ## Venice Sessions April-May 2017
 Raffaella Rovida (CIID) and Federico Bonelli (dyne.org)
 
 - iteration 8 of the design, made and cut by Raffaella
 - played different scenarios with Venice as an ambientation
+- Many thanks to SALE DOKS and [Assemblea Sociale per la Casa Venezia](https://www.facebook.com/search/top/?q=casettegiudecca)
 - see www.legrandjeu.net
 
 
