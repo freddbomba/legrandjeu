@@ -25,6 +25,14 @@ Federico Bonelli, Raffaella Rovida, Maddalena Fragnito, Marco Sachy, Emanuele Br
 Giocatori:
 Master:
 
+## Venice Sessions April-May 2017
+Raffaella Rovida (CIID) and Federico Bonelli (dyne.org)
+
+- iteration 8 of the design, made and cut by Raffaella
+- played different scenarios with Venice as an ambientation
+- see www.legrandjeu.net
+
+
 
 © 2016 Federico Bonelli - dyne.org foundation
 
