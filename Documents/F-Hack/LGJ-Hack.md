@@ -3,9 +3,9 @@
 
 Author: Federico Bonelli
 
-This adaptation of Le Grand Jeu (LGJ) is intended to model life online and offline, its economy, its consistency rules. Bitcoins, Hack, Cybercrime, Privacy, Espionage, Profiling and Big Data Warehouses are considered, modeled and exposed wile playing the game.
+This adaptation (or fork) of Le Grand Jeu (LGJ) is intended to model life online and offline, its economy, its consistency rules. Bitcoins, Hack, Cybercrime, Privacy, Espionage, Profiling and Big Data Warehouses are considered, modeled and exposed wile playing the game. To do so more elements have been added and some major changes occur if compared to the LGJ standard rule set (LGJRS) as it stabilised in interaction 6/7.
 
-The original game, LGJ, as a table game allows to set a situation where concepts emerge from doing, players are by default considered as peers. We can simulate different conditions and let behaviour emerge as well as strategies and inner goals of the players. The game can be used for fun, for situation analysis, modeling, co-design and as a storytelling environment for a performative type of act.
+The original game, LGJ, as a table game, allows to set a situation where concepts emerge from doing, players are by default considered as peers. We can simulate different conditions and let behaviour emerge as well as strategies and inner goals of the players. The game can be used for fun, for situation analysis, modeling, co-design and as a storytelling environment for a performative type of act.
 
 Players  get immediate feedback about what they know and they do from the game environment itself. During the game languages intermix, specialist terminology has to be translate, and stories emerge. Stories together contribute to draw a narrative, a set of dynamics waypoint or guides for thought that are a very powerfull, and necessary, design tool.
 
@@ -21,12 +21,19 @@ The Game comes with a set of components designed to be produced by players thems
 - The Board: The playing surface consists of a diamond shaped grid of triangular boxes. The board of HackLife is divided in 2 parts: the LIGHT and the DARK. The Network is divided as such as "The Open Internet" (Right) and "The Darknet" (L). The all grid is referred as "the Network". Outside the grid a ID can still be placed, being therefore isolated, or off the grid.
 
 - Triangular shapes that fit every area on the network are named "Identities".
- If you put your area outside of the network you say that that identity is off the grid. Adjacent territories can transport matter without extra expenses.
+ If you put your area outside of the network you say that that identity is off the grid or isolated. Adjacent territories can transport matter without extra expenses.
 
 - Currency: Blacks, Red and Whites are the tree the currency of the game translating wide concepts like:
   - white: legit money, cryptocurrency, Resources, Energy, etc.
   - black: Pollution, bad karma, corrupted data and necessary loss of information etc.
-  - red: reputation, credibility, skill, knowledge etc
+  - red: credibility, skill, knowledge etc
+
+- Reputation: Every Identity has a Reputation (scale zero to N)
+  - Reputation is necessary for setting up a production line and every production line has a reputation trashold below wich it becomes impossible or gets revoked
+  - Example: below reputation 5 can be impossible to have a credit card
+  - Reputation can also lead to bonuses or malus on operations (is actually in roleplaying terms a "modifier")
+  - Knowledge is a modifier for "inventions" and a payment in red coins can also be added to it, to buy more or less chance.
+
 
 Every Action is measured by a mix of white black and red currencies that reflect in the portfolio of a player or of her Identity.
 
@@ -35,12 +42,18 @@ Accounting into currency transactions allows to correctly model information base
 - Dices: A set of dices: to rule probability, in particular chance events; the game master can decide to introduce for the fun of it more n-sided dices, but basically most things can be modeled with d6.
 Notation: 1d6 means "throw one dice of 6", 2d8 "throw two dice of 8" etc.
 
-- The Wheel of Fortune: simulates an event that has, a priori, a distribution law of probability. Includes two types of events, the action of invent, enjoy and destroy. For particular purposes the distributions can be varied at the beginning of the game by the master, therefore the wheel is blank and you can write upon.
+- The Wheel of Fortune: Is a tool to simulate events that have, a priori, a distribution type of probability. Includes various types of events, invent, that pertain to knowledge and research, enjoy that is a social call, destroy with its socio-political implications. For particular purposes the distributions can be varied at the beginning of the game by the master, therefore the wheel is blank and you can write upon.
+in HLJ Ruleset these tipically are:
+  - Pick up an Unexpected Event Card
+  - Pick up a LegrandJeu Says card
+  - Learn a new skill
+  - You Get-Busted!
+  - Project
 
 - Alignements
 There are 2 major alignements, one for the open society and one for the dark one. Each one of the alignements can be chosen from 3 options
-OPEN: Legal, Neutral, Evil
-DARK: Good, Neutral, Chaotic
+OPEN: Legal, Chaotic, Anarchistic
+DARK: Good, Neutral, Evil
 
 Some examples: A corporate executive can be Legal, because his acts are designed to comply with the rules of the Law in the place he has citizenship, and Neutral or Chaotic in the Darknet, were he does not care about the impact on the third parties of his actions and thinks only about his personal gain.
 A Hacker can be openly Anarchistic regarding to the Law, so has an alignement of "Neutral" and Good regarding to a ethical code of conduct online.
@@ -53,22 +66,31 @@ A Hacker can be openly Anarchistic regarding to the Law, so has an alignement of
 - Lands and Tokens: free representation and production of the Lands owned by players and of the Functional Elements acquired or exchanged to be placed on the Board. The gamers are also provided with building material  (pongo or sticks and colored papers), and encouraged to build upon their territories what they have constructed as a line of process
 
 - Means of transport, logistics etc.
-They can be simulated in the game and descrived as production lines. A physical representation will be made by the player to be put on the board and move.
+They can be simulated in the game and described as production lines. A physical representation will be made by the player to be put on the board and move.
 
-- Master diary: to inspire and support the reporting of the Master including a Note-taking form, a matrix of Elements, a list of Events and a list of Victory rule for the table and for the tournament.
+- Master diary: to inspire and support the reporting of the Master including a Note-taking form, a matrix of Elements, a list of Events and a list of Victory rule for the table and for the tournament. Is worked out before the game to set some general scenario.
 
 
-and a set of basic rules:
+A set of basic rules:
 
 Set-up: roll of dice to distribute lands, blacks and whites to the players. Is up to the master to decide how much land and resources our players have access to at the beginnig of the game. Es. 1d6 of Territories, 3d6 of white, 1d6 of black each.
 
-Round: each player pays 1 white in the Common pot; this is the "expenses/taxes";
-then “Invests” or “Learns” or “Calls the Assembly”;
-at the end he spins the Wheel of Fortune
+Round:
 
-Strategy: fee to create a cooperative production line 5 whites each Element;  fee for player’s death double the black for all players.
+Set-up
+- Body-ID is set
+- Assignment of initial coins using dices
+- Assignment of initial REPUTATION level
+- Player Choses his Alignment, name and
+- Assignment of 2 IDs to each player, the ID can be placed on the board
 
+TURN
+- each player pays a fixed rate of white (living allowances) in the Common pot; this is the "expenses/taxes";
+- collects the result of his activities
+- then decides between “Invests” or “Learn” or “Call the Assembly”;
+- then Spins the wheel
 
+## How to win
 According to the rule adopted to win we will develop the game in a direction or another. The rule is stated at the beginning according to the situation that we want to model. For example the more used is
 a) wins the player that after n tours (or for ex. 2 hrs game time) has the best balance between white and Blacks
 another can be
@@ -76,7 +98,23 @@ b) wins who has more white, no matter the Blacks
 
 in case of multiple tables wins the table that has less black
 
+## Strategies:
+- Try to create a cooperative production line  
+- Experiment with circular economy,
+- Allow (but realistically) crime,
+- include disruption, destruction
+
+
+## Master typical allowed behaviours
+
+The Master plays "the world" and allows the overall flow of the game. Being after all a open-ruleset game with a role playing component, LGJ allows many styles of mastering. Remember as always that the scope of any game is to have fun. To have fun can be contajous, so also the master is supposed to have a bit of sense of humor and a dose of patience.
+
+- for player’s death double the black for all players
+- the commandment to "Have Fun" is a great occasion to alleviate tension, but also a way to show that to invest in community free and accessible leisure is as important as other factors.
+
 ----
+## notes
+
 
 The Game is facilitated by a Master that plays the wheel of Fortune, rules the creation of new Elements and laws, and report the strategies and dynamics arisen on the Diary. The Master should have a basic knowledge of physics, economy and enough creativity to nurture a plausible and fun game playing neutrally.
 
