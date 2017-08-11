@@ -133,7 +133,7 @@ The Master plays "the world" and allows the overall flow of the game. Being afte
 
 
 
-Some notes about the Situation
+### The Situation
 0. The situation is the game field
 1. Situations can not be meaningful if isolated
 2. Morphic field hypothesis: connections between agents in situation and different situations is mobile and full of tunnels.
@@ -143,7 +143,7 @@ Some notes about the Situation
 6. A useful situation is temporary
 7. A situation is useful to our aims when there is a third force that determines its end: for example a performance or a final presentation or a review
 
-2.3 The Transformation
+### The Transformation
 Transformation is the element that describes the welcomed rise of complexity in a creative process
 1. In transformation self organisation is a good thing
 2. Transformation is possible only in very strictly ruled systems with open situations
