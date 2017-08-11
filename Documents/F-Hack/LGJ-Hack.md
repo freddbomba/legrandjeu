@@ -3,38 +3,39 @@
 
 Author: Federico Bonelli
 
-This adaptation of Le Grand Jeu (LGJ) is intended to model life online, its economy, its consistency rules. Bitcoins, Hack, Cybercrime, Privacy, Espionage, Profiling and Big Data Warehouses are considered and exposed wile playing the game.
+This adaptation of Le Grand Jeu (LGJ) is intended to model life online and offline, its economy, its consistency rules. Bitcoins, Hack, Cybercrime, Privacy, Espionage, Profiling and Big Data Warehouses are considered, modeled and exposed wile playing the game.
 
-LGJ is a table game allows to set a situation where concepts emerge from doing, players are by default considered as peers. We can simulate different conditions and let behaviour emerge as well as strategies and inner goals of the players.
+The original game, LGJ, as a table game allows to set a situation where concepts emerge from doing, players are by default considered as peers. We can simulate different conditions and let behaviour emerge as well as strategies and inner goals of the players. The game can be used for fun, for situation analysis, modeling, co-design and as a storytelling environment for a performative type of act.
 
-Players  get immediate feedback about what they know and they do from the game environment. During the game languages intermix, specialist terminology has to be translate, and stories emerge.
+Players  get immediate feedback about what they know and they do from the game environment itself. During the game languages intermix, specialist terminology has to be translate, and stories emerge. Stories together contribute to draw a narrative, a set of dynamics waypoint or guides for thought that are a very powerfull, and necessary, design tool.
 
-This spinoff refers to the rules and motivations of LGJ, so refer to main readme.md in git
+This spinoff refers to the rules and motivations of LGJ, so refer to main readme.md in github
 
-Le Grand Jeu is a concept by Federico Bonelli, the game is copyright 2016 Federico Bonelli and Raffaella Rovida all rights reserved.
+Le Grand Jeu is a concept by Federico Bonelli, the game is copyright 2016 Federico Bonelli and Raffaella Rovida with all rights reserved.
 These files are released in Creative Commons non-commercial sharealike 4.0 licence
 
 -----
 
-The Game comes with a set of DIY components:
-- The Board: The playing surface consists of a diamond shaped grid of triangular boxes. The board of HackLife is divided in 2 parts: the LEFT and the RIGHT. The Network is divided as such as "The Open Internet" (R) and "The Darknet" (L). The all grid is referred as "the Network"
+The Game comes with a set of components designed to be produced by players themselve with the help of a printer or a laser cutter:
+
+- The Board: The playing surface consists of a diamond shaped grid of triangular boxes. The board of HackLife is divided in 2 parts: the LIGHT and the DARK. The Network is divided as such as "The Open Internet" (Right) and "The Darknet" (L). The all grid is referred as "the Network". Outside the grid a ID can still be placed, being therefore isolated, or off the grid.
 
 - Triangular shapes that fit every area on the network are named "Identities".
  If you put your area outside of the network you say that that identity is off the grid. Adjacent territories can transport matter without extra expenses.
 
 - Currency: Blacks, Red and Whites are the tree the currency of the game translating wide concepts like:
-  - white: legit money, cryptocurrency, resources, knowledge, etc.
-  - black: black money, pollution, bad karma, corrupted data etc.
-  - red: fame, reputation, credibility, skill etc.
+  - white: legit money, cryptocurrency, Resources, Energy, etc.
+  - black: Pollution, bad karma, corrupted data and necessary loss of information etc.
+  - red: reputation, credibility, skill, knowledge etc
 
-Energy and knowledge are measured by white currency; disinformation, fake news, etc in black.
+Every Action is measured by a mix of white black and red currencies that reflect in the portfolio of a player or of her Identity.
 
 Accounting into currency transactions allows to correctly model information based economy.
 
 - Dices: A set of dices: to rule probability, in particular chance events; the game master can decide to introduce for the fun of it more n-sided dices, but basically most things can be modeled with d6.
 Notation: 1d6 means "throw one dice of 6", 2d8 "throw two dice of 8" etc.
 
-- The Wheel of Fortune: simulates an event that has, a priori, a clear distribution law of probability. Includes two types of events, the action of invent, enjoy and destroy. For particular purposes the distributions can be varied at the beginning of the game by the master, therefore the wheel is blank and you can write upon.
+- The Wheel of Fortune: simulates an event that has, a priori, a distribution law of probability. Includes two types of events, the action of invent, enjoy and destroy. For particular purposes the distributions can be varied at the beginning of the game by the master, therefore the wheel is blank and you can write upon.
 
 - Alignements
 There are 2 major alignements, one for the open society and one for the dark one. Each one of the alignements can be chosen from 3 options
