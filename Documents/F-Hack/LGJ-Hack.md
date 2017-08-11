@@ -1,4 +1,4 @@
-#¨le Grand Jeu¨
+# le Grand Jeu
 ## Fork 2 - HackLife
 
 Author: Federico Bonelli
@@ -131,9 +131,10 @@ The Master plays "the world" and allows the overall flow of the game. Being afte
 ----
 ## notes
 
-
+(taken from my methodological notes)
 
 ### The Situation
+
 0. The situation is the game field
 1. Situations can not be meaningful if isolated
 2. Morphic field hypothesis: connections between agents in situation and different situations is mobile and full of tunnels.
