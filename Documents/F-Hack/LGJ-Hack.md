@@ -104,18 +104,7 @@ in case of multiple tables wins the table that has less black
 - Allow (but realistically) crime,
 - include disruption, destruction
 
-
-## Master typical allowed behaviours
-
-The Master plays "the world" and allows the overall flow of the game. Being after all a open-ruleset game with a role playing component, LGJ allows many styles of mastering. Remember as always that the scope of any game is to have fun. To have fun can be contajous, so also the master is supposed to have a bit of sense of humor and a dose of patience.
-
-- for player’s death double the black for all players
-- the commandment to "Have Fun" is a great occasion to alleviate tension, but also a way to show that to invest in community free and accessible leisure is as important as other factors.
-
-----
-## notes
-
-
+## The Game master
 The Game is facilitated by a Master that plays the wheel of Fortune, rules the creation of new Elements and laws, and report the strategies and dynamics arisen on the Diary. The Master should have a basic knowledge of physics, economy and enough creativity to nurture a plausible and fun game playing neutrally.
 
 some key concepts for the master:
@@ -131,6 +120,18 @@ some key concepts for the master:
 > 8. I can be you
 > 9. To decide i throw dices
 > 10. If i have no idea probability can be 50%
+
+### Master typically allowed behaviours
+
+The Master plays "the world" and allows the overall flow of the game. Being after all a open-ruleset game with a role playing component, LGJ allows many styles of mastering. Remember as always that the scope of any game is to have fun. To have fun can be contajous, so also the master is supposed to have a bit of sense of humor and a dose of patience.
+
+- for player’s death double the black for all players
+- the commandment to "Have Fun" is a great occasion to alleviate tension, but also a way to show that to invest in community free and accessible leisure is as important as other factors.
+
+----
+## notes
+
+
 
 Some notes about the Situation
 0. The situation is the game field
