@@ -155,12 +155,12 @@ Taken from my methodological notes, stand here to summarise concepts that have a
 ### The Transformation
 Transformation is the element that describes the welcomed rise of complexity in a creative process
 1. In transformation self organisation is a good thing
-2. Transformation is possible only in very strictly ruled systems with open situations
-3. A reorganisation, ghestalt re-orientation or simplification maneuver that breaks symmetry of the problem is a very good thing
+2. Transformation is possible only in very strictly ruled systems within open situations
+3. A re-organisation, ghestalt re-orientation or simplification maneuver that breaks symmetry of the problem is also a very good thing
 4. Quality is not Perfection
 5. Self similarity
 6. Feedback
-7. Storicize
+7. Tell stories
 8. Lie: a good story is worth a change of perspective
 9. A transformator is the working implementation of a transformation into a situation that is at the same time representing itself. This is media art implemented.
 10. Minimalism is baroque of the lazy people
