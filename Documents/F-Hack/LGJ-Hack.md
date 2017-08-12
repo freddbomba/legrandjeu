@@ -69,17 +69,17 @@ A Hacker can be openly Anarchistic regarding to the Law, so has an alignement of
 - The Functional Elements and the Line:
  and on 3 levels: procurement, production, 2.0. To each element is associated a production cost, a management cost and a yield. Element can be combined in lines of production, individually or cooperatively or under any other form of agreement. The master can extend this side in his presentation of the game whenever the game is organized to set a situation.
 
-- Lands and Tokens: free representation and production of the Lands owned by players and of the Functional Elements acquired or exchanged to be placed on the Board. The gamers are also provided with building material  (pongo or sticks and colored papers), and encouraged to build upon their territories what they have constructed as a line of process
+- Lands and Tokens: free representation and production of the Lands owned by players and of the Functional Elements acquired or exchanged to be placed on the Board. The gamers are also provided with building material  (pongo or sticks and colored papers), and encouraged to build upon their territories what they have constructed as a line of processes.
 
 - Means of transport, logistics etc.
-They can be simulated in the game and described as production lines. A physical representation will be made by the player to be put on the board and move.
+They can be simulated in the game and described as production lines or as physical movement on the board. If that is relevant to the economy of the game, physical representation will be made by the player to be put on the board and moved.
 
 - Master diary: to inspire and support the reporting of the Master including a Note-taking form, a matrix of Elements, a list of Events and a list of Victory rule for the table and for the tournament. Is worked out before the game to set some general scenario.
 
 
 A set of basic rules:
 
-Set-up: roll of dice to distribute lands, blacks and whites to the players. Is up to the master to decide how much land and resources our players have access to at the beginnig of the game. Es. 1d6 of Territories, 3d6 of white, 1d6 of black each.
+Set-up: roll of dice to distribute lands, blacks and whites to the players. Is up to the master to decide how much land and resources our players have access to at the beginnig of the game. Es. 1d6 of Territories, 3d6 of white, 1d6 of black each. Red is dealt with differently.
 
 Round:
 
@@ -93,11 +93,11 @@ Set-up
 TURN
 - each player pays a fixed rate of white (living allowances) in the Common pot; this is the "expenses/taxes";
 - collects the result of his activities
-- then decides between “Invests” or “Learn” or “Call the Assembly”;
-- then Spins the wheel
+- then decides between “Invests” or “Learn”, “Call the Assembly”.
+- At the end of every round the master spins the wheel
 
 ## How to win
-According to the rule adopted to win we will develop the game in a direction or another. The rule is stated at the beginning according to the situation that we want to model. For example the more used is
+According to the rule adopted to win we will develop the game in a direction or another. The rule is stated at the beginning according to the situation that we want to model in the game by the Master. For example the more used are:
 a) wins the player that after n tours (or for ex. 2 hrs game time) has the best balance between white and Blacks
 another can be
 b) wins who has more white, no matter the Blacks
@@ -107,13 +107,15 @@ in case of multiple tables wins the table that has less black
 ## Strategies:
 - Try to create a cooperative production line  
 - Experiment with circular economy,
-- Allow (but realistically) crime,
-- include disruption, destruction
+- Allow (although realistically) crime,
+- Include disruption, destruction and world lore in the game
+
+-----
 
 ## The Game master
 The Game is facilitated by a Master that plays the wheel of Fortune, rules the creation of new Elements and laws, and report the strategies and dynamics arisen on the Diary. The Master should have a basic knowledge of physics, economy and enough creativity to nurture a plausible and fun game playing neutrally.
 
-some key concepts for the master:
+some key concepts for the master to help to assest his role:
 
 > I am the chaos master
 > 0. I keep notes
