@@ -3,25 +3,31 @@
 
 Author: Federico Bonelli
 
-This adaptation (or fork) of Le Grand Jeu (LGJ) is intended to model life online and offline, its economy, its consistency rules. Bitcoins, Hack, Cybercrime, Privacy, Espionage, Profiling and Big Data Warehouses are considered, modeled and exposed wile playing the game. To do so more elements have been added and some major changes occur if compared to the LGJ standard rule set (LGJRS) as it stabilised in interaction 6/7.
+This major adaptation (or fork) of Le Grand Jeu (LGJ) is intended to model life both online and offline, its economy, its consistency rules. Bitcoins, Hack, Cybercrime, Privacy, Espionage, Profiling and Big Data Warehouses are considered, modeled and exposed wile playing the game, together with fluid democracy, alt currency and transition ideas. To do so some more elements have been added. Major changes occur if compared to the LGJ standard rule set (LGJRS) as it has stabilised in interaction 7.
 
-The original game, LGJ, as a table game, allows to set a situation where concepts emerge from doing, players are by default considered as peers. We can simulate different conditions and let behaviour emerge as well as strategies and inner goals of the players. The game can be used for fun, for situation analysis, modeling, co-design and as a storytelling environment for a performative type of act.
+The original game, LGJ, as a table game, allows to set a situation where concepts emerge from doing, players are by default considered as peers and ideas emerge from the context of the game that can be precious in incept modelling and design requirements. We can simulate different conditions and lead to experiment with different behaviours as well as strategies and inner goals of the players not only manifest but interact. The game can be used for fun, for situation analysis, modeling, co-design and as a storytelling environment. It is envisioned that in certain forms the game can become a framework as well for a performative act.
 
 Players  get immediate feedback about what they know and they do from the game environment itself. During the game languages intermix, specialist terminology has to be translate, and stories emerge. Stories together contribute to draw a narrative, a set of dynamics waypoint or guides for thought that are a very powerfull, and necessary, design tool.
 
-This spinoff refers to the rules and motivations of LGJ, so refer to main readme.md in github
+This spinoff refers to the rules and motivations of LGJ, so refer to main readme.md in github. Is also expected to have a little experience in LGJ to be able to master a game for new players. So please contact us at dyne.org to get aquainted with the game and its value.
+
 
 Le Grand Jeu is a concept by Federico Bonelli, the game is copyright 2016 Federico Bonelli and Raffaella Rovida with all rights reserved.
+
 These files are released in Creative Commons non-commercial sharealike 4.0 licence
 
 -----
 
-The Game comes with a set of components designed to be produced by players themselve with the help of a printer or a laser cutter:
-
-- The Board: The playing surface consists of a diamond shaped grid of triangular boxes. The board of HackLife is divided in 2 parts: the LIGHT and the DARK. The Network is divided as such as "The Open Internet" (Right) and "The Darknet" (L). The all grid is referred as "the Network". Outside the grid a ID can still be placed, being therefore isolated, or off the grid.
-
+The Hack Life variant of the game (HLJ) comes with a set of components designed to be produced by players themselve, either with pen and paper or with the help of a printer or a laser cutter:
+- ID:
 - Triangular shapes that fit every area on the network are named "Identities".
- If you put your area outside of the network you say that that identity is off the grid or isolated. Adjacent territories can transport matter without extra expenses.
+ If you put your area outside of the network you say that that identity is off the grid or isolated. Adjacent territories can transport matter without extra expenses. They Stand for "one Identity". Some, more complex in shape are the result of the coupling of the ID and a "body". They are given one for player at the beginning.
+
+- The Board:
+The playing surface consists of a diamond shaped grid of triangular boxes. This grid stands for "the Network" when is seen as dots connecting points and as "the meatspace" as it is seen as only the area.
+The board of HackLife is divided in 2 parts: the LIGHT and the DARK. As the Network could be divided as "The Open Internet" (Right) and "The Darknet" (Left).  Outside the grid a ID can still be placed, being therefore isolated, or off the grid. It can be used to represent a particular state of a player's ID.
+
+
 
 - Currency: Blacks, Red and Whites are the tree the currency of the game translating wide concepts like:
   - white: legit money, cryptocurrency, Resources, Energy, etc.
@@ -131,7 +137,7 @@ The Master plays "the world" and allows the overall flow of the game. Being afte
 ----
 ## notes
 
-(taken from my methodological notes)
+Taken from my methodological notes, stand here to summarise concepts that have a long explaination elsewere.
 
 ### The Situation
 
