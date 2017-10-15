@@ -8,7 +8,7 @@ this is a slide delimiter
 * another
 ---
 # and a new slide
-with code
+with code in LUA
 ```
 function logic:init(scene)
   trace("logic:init()")
@@ -35,10 +35,11 @@ and the logo as it is now..
 ![Logo](http://legrandjeu.net/wp-content/uploads/2017/06/cropped-loghino-sito-le-grand-jeu-10-2.png)
 pretty minimal
 ---
-some math
+some math (renders latex)
 $$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$
 ---
-some charts
+## some charts:
+NB: https://github.com/rajgoel/reveal.js-plugins/tree/master/chart
 ---
 
 <canvas data-chart="line">
@@ -71,7 +72,7 @@ My second dataset, 28, 48, 40, 19, 86, 27, 90
 <!--
 {
  "data" : {
-  "labels" : ["Enero", "Febrero", "Marzo", "Avril", "Mayo", "Junio", "Julio"],
+  "labels" : ["January", "February", "March", "April", "May", "June", "July"],
   "datasets" : [{ "borderColor": "#0f0", "borderDash": ["5","10"] }, { "borderColor": "#0ff" } ]
  }
 }
@@ -87,5 +88,3 @@ My second dataset, 28, 48, 40, 19, 86, 27, 90
 </canvas>
 
 ---
-
-### Learn By Example
