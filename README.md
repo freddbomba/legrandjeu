@@ -33,6 +33,11 @@ Raffaella Rovida (CIID) and Federico Bonelli (dyne.org)
 - Many thanks to SALE DOKS and [Assemblea Sociale per la Casa Venezia](https://www.facebook.com/search/top/?q=casettegiudecca)
 - see again www.legrandjeu.net
 
+## Taiwan 2018
+- Intelligent Urban Fabric, Conference Taipei, 17/18 November 2018
+
+## China 2018
+- Intelligent Urban Fabric, Third Annual conference of the Network Society, Huangzou, 20/23 November 2018
 
 
 © 2016 Federico Bonelli - dyne.org foundation
