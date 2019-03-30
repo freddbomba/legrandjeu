@@ -8,3 +8,8 @@ has the same functionalities
 
 sketch site: https://www.sketchapp.com
 
+## how to make your game board and pieces
+
+take the files for the laser cut from the last iteration, now is iteration 8 and adjust them for your laser cutter of choice. We suggest of using transparent policarbonate so that your boards can be put over a handwritten map that represent the situation you decide to play.
+
+have fun!
