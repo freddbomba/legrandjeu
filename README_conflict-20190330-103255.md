@@ -39,6 +39,10 @@ Raffaella Rovida (CIID) and Federico Bonelli (dyne.org)
 ## China 2018
 - Intelligent Urban Fabric, Third Annual conference of the Network Society, Huangzou, 20/23 November 2018
 
+## Venice IUAV 22 Feb 2019
+- Workshop with "Le Grand Jeu" at IUAV, Master U-Rise, Rigenerazione urbana e innovazione sociale (prof. Simona Morini), http://urisemaster.org
+
+
 
 © 2016 Federico Bonelli - dyne.org foundation
 
