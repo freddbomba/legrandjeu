@@ -39,6 +39,7 @@ Raffaella Rovida (CIID) and Federico Bonelli (dyne.org)
 ## China 2018
 - Intelligent Urban Fabric, Third Annual conference of the Network Society, Huangzou, 20/23 November 2018
 
+## More...
 
 © 2016 Federico Bonelli - dyne.org foundation
 
