@@ -28,7 +28,7 @@ Raffaella Rovida (CIID) and Federico Bonelli
 - Many thanks to SALE DOKS and [Assemblea Sociale per la Casa Venezia](https://www.facebook.com/search/top/?q=casettegiudecca)
 - see again www.legrandjeu.net
 
-## ![Screen Shot 2017-05-16 at 16.28.45](Screen Shot 2017-05-16 at 16.28.45.png)
+## ![2017](2017.png)
 
 ## Taiwan 2018
 
