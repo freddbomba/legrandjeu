@@ -18,7 +18,7 @@ you can follow us from the website www.legrandjeu.net
 
 
 Le Grand Jeu might refer as well to:
-- The Great Game (in French Le Grand Jeu), the strategic rivalry between the British Empire and the Russian Empire for supremacy in central Asia. See for example the book of Peter Hopkirk "the Great Game"
+- The Great Game (in French Le Grand Jeu), the strategic rivalry between the British Empire and the Russian Empire for supremacy in central Asia. See for example the book of Peter Hopkirk "the Great Game" (1990)
 - Le Grand Jeu, the title of a French literary review, founded in 1928 by René Daumal and others, surrealist in intent and experimentalist in practice
 - Le Grand Jeu, a 1928 poetry collection by Benjamin Péret from the same circle
 - The Glass Bead Game, a book by Herman Hesse printed in 1943. The game described in this book shares nothing with LGJ rules but spiritual echoes.
