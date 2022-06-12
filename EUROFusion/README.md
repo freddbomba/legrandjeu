@@ -2,7 +2,7 @@
 
 THis folder includes:
 
-- EUROFusion booklet for rules and scenarios about fusion to be played as commissioned by EUROFusion consortium for their exhibition and activities.
+- EUROFusion booklet for rules and scenarios about fusion to be played as commissioned by EUROFusion consortium https://www.euro-fusion.org/ for their exhibition "Fusion Expo" https://www.euro-fusion.org/fusion-expo/ and activities.
 
 THe whole story is published on www.legrandjeu.net website and nicely rendered in a video clip here
 
