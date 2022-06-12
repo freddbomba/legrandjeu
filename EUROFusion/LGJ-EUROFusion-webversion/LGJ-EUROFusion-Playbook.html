@@ -1,0 +1,606 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+
+<link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
+.mac-os-11 { --title-bar-height: 28px; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; tab-size: 4; background-position: inherit; background-repeat: inherit; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+.typora-export .task-list-item input { pointer-events: none; }
+@media screen and (max-width: 500px) { 
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+button, input, select, textarea { color: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right-width: 0px; background-color: inherit; }
+.CodeMirror-linenumber { }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; position: relative !important; background-position: inherit; background-repeat: inherit; }
+.md-fences-adv-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; background-position: 0px 0px; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li blockquote { margin: 1rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print { 
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  .typora-export #write { break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
+  .typora-export-show-outline .typora-export-sidebar { display: none; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background-color: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+.MathJax_ref { fill: currentcolor; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) { 
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.6; font-family: var(--monospace); }
+code { text-align: left; }
+a.md-print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom-width: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+mark { background-color: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+.md-expand mark .md-meta { opacity: 0.3 !important; }
+mark .md-meta { color: rgb(0, 0, 0); }
+@media print { 
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
+}
+.md-diagram-panel .messageText { stroke: none !important; }
+.md-diagram-panel .start-state { fill: var(--node-fill); }
+.md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
+.md-fences.md-fences-math { font-size: 1em; }
+.md-fences-advanced:not(.md-focus) { padding: 0px; white-space: nowrap; border: 0px; }
+.md-fences-advanced:not(.md-focus) { background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; background-position: inherit; background-repeat: inherit; }
+.typora-export-show-outline .typora-export-content { max-width: 1440px; margin: auto; display: flex; flex-direction: row; }
+.typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
+.typora-export-show-outline #write { --webkit-flex: 2; flex: 2 1 0%; }
+.typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
+@media screen and (max-width: 1024px) { 
+  .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
+}
+@media screen and (max-width: 800px) { 
+  .typora-export-sidebar { display: none; }
+}
+.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; }
+.outline-content ul { margin-top: 0px; margin-bottom: 0px; }
+.outline-content strong { font-weight: 400; }
+.outline-expander { width: 1rem; height: 1.428571429rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
+.outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
+.outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
+.outline-expander:hover::before { content: ""; }
+.outline-h1 > .outline-item { padding-left: 0px; }
+.outline-h2 > .outline-item { padding-left: 1em; }
+.outline-h3 > .outline-item { padding-left: 2em; }
+.outline-h4 > .outline-item { padding-left: 3em; }
+.outline-h5 > .outline-item { padding-left: 4em; }
+.outline-h6 > .outline-item { padding-left: 5em; }
+.outline-label { cursor: pointer; display: table-cell; vertical-align: middle; text-decoration: none; color: inherit; }
+.outline-label:hover { text-decoration: underline; }
+.outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
+.outline-item:hover { margin-left: -28px; margin-right: -28px; border-left-width: 28px; border-left-style: solid; border-left-color: transparent; border-right-width: 28px; border-right-style: solid; border-right-color: transparent; }
+.outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
+.outline-item-open > .outline-item > .outline-expander::before { content: ""; }
+.outline-children { display: none; }
+.info-panel-tab-wrapper { display: none; }
+.outline-item-open > .outline-children { display: block; }
+.typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
+.typora-export .outline-item:hover { margin-right: -8px; border-right-width: 8px; border-right-style: solid; border-right-color: transparent; }
+.typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
+.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
+.typora-export-collapse-outline .outline-children { display: none; }
+.typora-export-collapse-outline .outline-item-open > .outline-children, .typora-export-no-collapse-outline .outline-children { display: block; }
+.typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
+.typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
+.md-inline-math-container mjx-container { zoom: 0.95; }
+
+
+:root {
+    --side-bar-bg-color: #fafafa;
+    --control-text-color: #777;
+}
+
+@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+/* open-sans-regular - latin-ext_latin */
+  /* open-sans-italic - latin-ext_latin */
+    /* open-sans-700 - latin-ext_latin */
+    /* open-sans-700italic - latin-ext_latin */
+  html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, 'Segoe UI Emoji', sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+}
+
+#write {
+    max-width: 860px;
+  	margin: 0 auto;
+  	padding: 30px;
+    padding-bottom: 100px;
+}
+
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1024px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	#write {
+		max-width: 1200px;
+	}
+}
+
+#write > ul:first-child,
+#write > ol:first-child{
+    margin-top: 30px;
+}
+
+a {
+    color: #4183C4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
+}
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+h1 {
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+}
+h2 {
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+}
+
+/*@media print {
+    .typora-export h1,
+    .typora-export h2 {
+        border-bottom: none;
+        padding-bottom: initial;
+    }
+
+    .typora-export h1::after,
+    .typora-export h2::after {
+        content: "";
+        display: block;
+        height: 100px;
+        margin-top: -96px;
+        border-top: 1px solid #eee;
+    }
+}*/
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+   font-size: 1em;
+    color: #777;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.8em 0;
+}
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+hr {
+    height: 2px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+li p.first {
+    display: inline-block;
+}
+ul,
+ol {
+    padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    border-left: 4px solid #dfe2e5;
+    padding: 0 15px;
+    color: #777777;
+}
+blockquote blockquote {
+    padding-right: 0;
+}
+table {
+    padding: 0;
+    word-break: initial;
+}
+table tr {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
+}
+table th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
+}
+table td {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 6px 13px;
+}
+table th:first-child,
+table td:first-child {
+    margin-top: 0;
+}
+table th:last-child,
+table td:last-child {
+    margin-bottom: 0;
+}
+
+.CodeMirror-lines {
+    padding-left: 4px;
+}
+
+.code-tooltip {
+    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
+    border-top: 1px solid #eef2f2;
+}
+
+.md-fences,
+code,
+tt {
+    border: 1px solid #e7eaed;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+}
+
+code {
+    background-color: #f3f4f4;
+    padding: 0 2px 0 2px;
+}
+
+.md-fences {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
+}
+
+@media print {
+    html {
+        font-size: 13px;
+    }
+    table,
+    pre {
+        page-break-inside: avoid;
+    }
+    pre {
+        word-wrap: break-word;
+    }
+}
+
+.md-fences {
+	background-color: #f8f8f8;
+}
+#write pre.md-meta-block {
+	padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
+}
+
+.mathjax-block>.code-tooltip {
+	bottom: .375rem;
+}
+
+.md-mathjax-midline {
+    background: #fafafa;
+}
+
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+.md-image>.md-meta {
+    /*border: 1px solid #ddd;*/
+    border-radius: 3px;
+    padding: 2px 0px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+.md-tag {
+    color: #a7a7a7;
+    opacity: 1;
+}
+
+.md-toc { 
+    margin-top:20px;
+    padding-bottom:20px;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+}
+
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/** focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header, .context-menu, .megamenu-content, footer{
+    font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state{
+    visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+    background-color: #fafafa;
+    background-color: var(--side-bar-bg-color);
+}
+
+.md-lang {
+    color: #b4654d;
+}
+
+/*.html-for-mac {
+    --item-hover-bg-color: #E6F0FE;
+}*/
+
+#md-notification .btn {
+    border: 0;
+}
+
+.dropdown-menu .divider {
+    border-color: #e5e5e5;
+    opacity: 0.4;
+}
+
+.ty-preferences .window-content {
+    background-color: #fafafa;
+}
+
+.ty-preferences .nav-group-item.active {
+    color: white;
+    background: #999;
+}
+
+.menu-item-container a.menu-style-btn {
+    background-color: #f5f8fa;
+    background-image: linear-gradient( 180deg , hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0)); 
+}
+
+
+ @media print { @page {margin: 0 0 0 0;} body.typora-export {padding-left: 0; padding-right: 0;} #write {padding:0;}}
+</style><title>LGJ-EUROFusion-Playbook</title>
+</head>
+<body class='typora-export typora-export-show-outline typora-export-no-collapse-outline'><div class='typora-export-content'>
+<div class="typora-export-sidebar"><div class="outline-content"><li class="outline-item-wrapper outline-h1"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#copyright">Copyright</a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h1"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#table-of-contents">Table of Contents</a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h1"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#introduction">Introduction</a></div><ul class="outline-children"><li class="outline-item-wrapper outline-h2"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#about-the-game"><strong>About the game</strong></a></div><ul class="outline-children"></ul></li></ul></li><li class="outline-item-wrapper outline-h1"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#1-game-elements">1. Game Elements</a></div><ul class="outline-children"><li class="outline-item-wrapper outline-h2"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#httplegrandjeuneteurofusion-templateszip">http://legrandjeu.net/EUROFusion-templates.zip</a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#the-players">THE PLAYERS</a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#the-physical-world">THE PHYSICAL WORLD</a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#the-fortune">THE FORTUNE</a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#the-functional-world">THE FUNCTIONAL WORLD</a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#the-rest-of-the-stuff">THE REST OF THE STUFF</a></div><ul class="outline-children"></ul></li></ul></li><li class="outline-item-wrapper outline-h1"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#2-to-play-a-game">2. To play a game</a></div><ul class="outline-children"><li class="outline-item-wrapper outline-h2"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#21-preparation-of-a-simple-game">2.1. PREPARATION OF A SIMPLE GAME</a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#211-basic-rules-for-all-scenarios">2.1.1. Basic Rules for all scenarios</a></div><ul class="outline-children"><li class="outline-item-wrapper outline-h3"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#222-events-in-general">2.2.2. Events in general</a></div><ul class="outline-children"></ul></li></ul></li></ul></li><li class="outline-item-wrapper outline-h1"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#-1"></a></div><ul class="outline-children"><li class="outline-item-wrapper outline-h2"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#22-how-to-be-gm-for-a-simple-game">2.2. How to be GM for a simple game</a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#23-play-the-basic-scenario">2.3. PLAY THE BASIC SCENARIO</a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#231-some-inspiration-for-the-basic-scenario">2.3.1. Some Inspiration for the BASIC scenario</a></div><ul class="outline-children"></ul></li></ul></li><li class="outline-item-wrapper outline-h1"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#3-the-eurofusion-scenarios">3. THE EUROFUSION SCENARIOS</a></div><ul class="outline-children"><li class="outline-item-wrapper outline-h2"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#31-key-learnings-for-the-scenarios">3.1. KEY LEARNINGS FOR THE SCENARIOS</a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#34-scenario-1-addiction">3.4. Scenario 1: Addiction</a></div><ul class="outline-children"></ul></li></ul></li><li class="outline-item-wrapper outline-h1"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#-2"></a></div><ul class="outline-children"><li class="outline-item-wrapper outline-h3"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#341-events-suggested-for-scenario-1">3.4.1. Events suggested for scenario 1</a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#35-scenario-2-fossil-vs-renewable">3.5. Scenario 2: Fossil vs Renewable</a></div><ul class="outline-children"><li class="outline-item-wrapper outline-h3"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#351-events-suggested-for-scenario-2">3.5.1. Events suggested for scenario 2</a></div><ul class="outline-children"></ul></li></ul></li></ul></li><li class="outline-item-wrapper outline-h1"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#-3"></a></div><ul class="outline-children"><li class="outline-item-wrapper outline-h2"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#36-scenario-3-the-nuclear-scenario">3.6 Scenario 3: The Nuclear Scenario</a></div><ul class="outline-children"><li class="outline-item-wrapper outline-h3"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#361-events-suggested-for-scenario-3">3.6.1. Events suggested for scenario 3</a></div><ul class="outline-children"></ul></li></ul></li><li class="outline-item-wrapper outline-h2"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#37-scenario-4-the-hybrid-grid">3.7. Scenario 4: The Hybrid Grid</a></div><ul class="outline-children"><li class="outline-item-wrapper outline-h3"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#371-events-suggested-for-scenario-4">3.7.1. Events suggested for scenario 4</a></div><ul class="outline-children"></ul></li></ul></li><li class="outline-item-wrapper outline-h2"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#38-scenario-5-the-hybrid-nuclear-grid">3.8. Scenario 5: The Hybrid nuclear grid</a></div><ul class="outline-children"><li class="outline-item-wrapper outline-h3"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#381-events-suggested-for-scenario-5">3.8.1. Events suggested for scenario 5</a></div><ul class="outline-children"></ul></li></ul></li><li class="outline-item-wrapper outline-h2"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#39-scenario-6-the-two-islands">3.9. Scenario 6: The Two Islands</a></div><ul class="outline-children"><li class="outline-item-wrapper outline-h3"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#391-events-suggested-for-scenario-6">3.9.1. Events suggested for scenario 6</a></div><ul class="outline-children"></ul></li></ul></li><li class="outline-item-wrapper outline-h2"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#310-scenario-for-fusecom-master-training-addictiongrid">3.10. Scenario for FUSECom Master Training: Addiction+Grid</a></div><ul class="outline-children"></ul></li></ul></li><li class="outline-item-wrapper outline-h1"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#-4"></a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h1"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#-5"></a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h1"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#4-mastering-and-documenting-games">4. Mastering and Documenting Games</a></div><ul class="outline-children"><li class="outline-item-wrapper outline-h3"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#41-game-assessment">4.1. Game Assessment</a></div><ul class="outline-children"></ul></li></ul></li><li class="outline-item-wrapper outline-h1"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#-6"></a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h1"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#about-the-authors">ABOUT THE AUTHORS</a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h1"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#credits"><strong>CREDITS</strong></a></div><ul class="outline-children"></ul></li></div></div><div id='write'  class=''><p>&nbsp;</p><p><img src="Images-book/copertina.png" referrerpolicy="no-referrer" alt="Screen Shot 2021-11-28 at 13.14.34"></p><h1 id='copyright'><span>Copyright</span></h1><p><span>Copyright © 2016-2021 Federico Bonelli and Raffaella Rovida</span></p><p>&nbsp;</p><p><span>Le Grand Jeu is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. You can find the necessary files for laser-cutting your own game set on GitHub (</span><a href='https://github.com/freddbomba/legrandjeu' target='_blank' class='url'>https://github.com/freddbomba/legrandjeu</a><span>).</span></p><p>&nbsp;</p><p><span>TO CONTACT US:</span></p><p><span>Stichting Trasformatorio</span>
+<span>Marcus Straat 52/4a</span>
+<span>1091TK</span>
+<span>Amsterdam</span></p><p><a href='http://www.legrandjeu.net'><span>www.legrandjeu.net</span></a><span> | @legrandjeu11 #legrandjeu</span></p><p><span>ACKNOWLEDGEMENTS</span></p><p><img src="book-images/image-20211110172832809.png" referrerpolicy="no-referrer" alt="image-20211110172832809"></p><p><span>This work has been carried out within the framework of the EUROfusion consortium and has received funding from the Euratom research and training programme 2014-2018 and 2019-2020 under grant agreement No 633053.</span></p><h1 id='table-of-contents'><span>Table of Contents</span></h1><div class='md-toc' mdtype='toc'><p class="md-toc-content" role="list"><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n3"><a class="md-toc-inner" href="#copyright">Copyright</a></span><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n14"><a class="md-toc-inner" href="#table-of-contents">Table of Contents</a></span><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n17"><a class="md-toc-inner" href="#introduction">Introduction</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n23"><a class="md-toc-inner" href="#about-the-game"><strong>About the game</strong></a></span><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n34"><a class="md-toc-inner" href="#1-game-elements">1. Game Elements</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n37"><a class="md-toc-inner" href="#httplegrandjeuneteurofusion-templateszip">http://legrandjeu.net/EUROFusion-templates.zip</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n38"><a class="md-toc-inner" href="#the-players">THE PLAYERS</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n43"><a class="md-toc-inner" href="#the-physical-world">THE PHYSICAL WORLD</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n70"><a class="md-toc-inner" href="#the-fortune">THE FORTUNE</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n86"><a class="md-toc-inner" href="#the-functional-world">THE FUNCTIONAL WORLD</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n108"><a class="md-toc-inner" href="#the-rest-of-the-stuff">THE REST OF THE STUFF</a></span><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n113"><a class="md-toc-inner" href="#2-to-play-a-game">2. To play a game</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n123"><a class="md-toc-inner" href="#21-preparation-of-a-simple-game">2.1. PREPARATION OF A SIMPLE GAME</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n157"><a class="md-toc-inner" href="#211-basic-rules-for-all-scenarios">2.1.1. Basic Rules for all scenarios</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n192"><a class="md-toc-inner" href="#222-events-in-general">2.2.2. Events in general</a></span><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n193"><a class="md-toc-inner" href="#-1"></a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n195"><a class="md-toc-inner" href="#22-how-to-be-gm-for-a-simple-game">2.2. How to be GM for a simple game</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n224"><a class="md-toc-inner" href="#23-play-the-basic-scenario">2.3. PLAY THE BASIC SCENARIO</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n233"><a class="md-toc-inner" href="#231-some-inspiration-for-the-basic-scenario">2.3.1. Some Inspiration for the BASIC scenario</a></span><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n279"><a class="md-toc-inner" href="#3-the-eurofusion-scenarios">3. THE EUROFUSION SCENARIOS</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n285"><a class="md-toc-inner" href="#31-key-learnings-for-the-scenarios">3.1. KEY LEARNINGS FOR THE SCENARIOS</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n322"><a class="md-toc-inner" href="#34-scenario-1-addiction">3.4. Scenario 1: Addiction</a></span><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n324"><a class="md-toc-inner" href="#-2"></a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n325"><a class="md-toc-inner" href="#341-events-suggested-for-scenario-1">3.4.1. Events suggested for scenario 1</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n327"><a class="md-toc-inner" href="#35-scenario-2-fossil-vs-renewable">3.5. Scenario 2: Fossil vs Renewable</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n330"><a class="md-toc-inner" href="#351-events-suggested-for-scenario-2">3.5.1. Events suggested for scenario 2</a></span><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n331"><a class="md-toc-inner" href="#-3"></a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n333"><a class="md-toc-inner" href="#36-scenario-3-the-nuclear-scenario">3.6 Scenario 3: The Nuclear Scenario</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n336"><a class="md-toc-inner" href="#361-events-suggested-for-scenario-3">3.6.1. Events suggested for scenario 3</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n338"><a class="md-toc-inner" href="#37-scenario-4-the-hybrid-grid">3.7. Scenario 4: The Hybrid Grid</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n341"><a class="md-toc-inner" href="#371-events-suggested-for-scenario-4">3.7.1. Events suggested for scenario 4</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n344"><a class="md-toc-inner" href="#38-scenario-5-the-hybrid-nuclear-grid">3.8. Scenario 5: The Hybrid nuclear grid</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n347"><a class="md-toc-inner" href="#381-events-suggested-for-scenario-5">3.8.1. Events suggested for scenario 5</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n350"><a class="md-toc-inner" href="#39-scenario-6-the-two-islands">3.9. Scenario 6: The Two Islands</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n354"><a class="md-toc-inner" href="#391-events-suggested-for-scenario-6">3.9.1. Events suggested for scenario 6</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n359"><a class="md-toc-inner" href="#310-scenario-for-fusecom-master-training-addictiongrid">3.10. Scenario for FUSECom Master Training: Addiction+Grid</a></span><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n361"><a class="md-toc-inner" href="#-4"></a></span><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n363"><a class="md-toc-inner" href="#-5"></a></span><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n367"><a class="md-toc-inner" href="#4-mastering-and-documenting-games">4. Mastering and Documenting Games</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n376"><a class="md-toc-inner" href="#41-game-assessment">4.1. Game Assessment</a></span><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n379"><a class="md-toc-inner" href="#-6"></a></span><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n383"><a class="md-toc-inner" href="#about-the-authors">ABOUT THE AUTHORS</a></span><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n397"><a class="md-toc-inner" href="#credits"><strong>CREDITS</strong></a></span></p></div><p>&nbsp;</p><h1 id='introduction'><span>Introduction</span></h1><p>&nbsp;</p><blockquote><p><strong><span>Le Grand Jeu does not</span></strong><span> have a moralistic message to deliver, does not impose any alignment to the players and does not provide clear victory rules.</span></p><p><span>Like in real life!</span></p><p>&nbsp;</p></blockquote><h2 id='about-the-game'><strong><span>About the game</span></strong></h2><p><span>Le Grand Jeu is the name of a game designed in May-July 2016 by an expert group in a 4 days workshop, held in Milan 10-14 July 2016. The group gathered by Federico included artists, engineers, design experts and activists. The idea was to design a situation where some narratives about the future of our society could be told, crafted and discussed in a positive way together by a group of people.</span></p><p><span>Some games were from the beginning tools to spread ideas and have people adopt them and use them while reflecting over those issues. Is tha case of many games. LGJ is though to mirror some new concepts that can be quite technical and difficult to explain otherwise: stock and flow, blockchains, radical transparency, consensus, governance, entropy, finite resources, renewable energy and grids for example.</span></p><p><span>This special edition of LeGrandJeu was commissioned by the EUROfusion Communication Department to open the </span><strong><span>EUROfusion Expo in 2021</span></strong><span> and to provide the scientists responsible for communication in the different European countries, with an engaging tool, to talk about the complex implications of fusion energy research in an engaging way.</span></p><p><span>This book contains an introduction to the game and to 6 scenarios specifically designed together with EUROFUSION team to enjoy playing the future of humanity starting from an energy perspective.</span></p><p><strong><span>LGJ-EUROFusion scenarios</span></strong><span> were co-designed by Raffa and Fredd in a week-sprint, carried out in January 2020, just before the pandemic lockdown together with a group of nuclear physicists of the Danish Technological University involved into the EUROFusion project. </span></p><p><span>Three rapid iterations brought us to the development of this series of scenarios, that treat different sources of energy, like fossil, fission, renewable and, when becomes available, fusion. We thought of hinting in them different set-ups for the land and governance and spent time and effort to balance the existing elements for their economic impact.</span></p><p><span>The rest is to the master and to the players to find out by doing.</span></p><p>&nbsp;</p><p><span>The authors would like to thank all the players that helped us refine these scenarios and will help in the future to shape reality of a better world.</span></p><p>&nbsp;</p><h1 id='1-game-elements'><span>1. Game Elements</span></h1><p><span>Some Goodies!</span></p><p><span> </span><strong><span>You can download</span></strong><span> our game master templates and the pdf of this booklet at the following address:</span></p><h2 id='httplegrandjeuneteurofusion-templateszip'><a href='http://legrandjeu.net/EUROFusion-templates.zip' target='_blank' class='url'>http://legrandjeu.net/EUROFusion-templates.zip</a></h2><h2 id='the-players'><span>THE PLAYERS</span></h2><p><span>That&#39;s you. </span></p><p><span>Pick a color choosing the plastiline you like best.</span></p><p><span>And then there is a Game Master. It can be one of you. The game master ensures that the game flows and plays the world and everything is &quot;on the table&quot; and is not a player. He is knowledgeable and impartial. More about mastering comes in the Game Mastering (section 4).</span></p><p>&nbsp;</p><h2 id='the-physical-world'><span>THE PHYSICAL WORLD</span></h2><p><span>LGJ is a turn based game. Turns stand for time, and allow to know what comes before and what comes after.</span></p><figure><table><thead><tr><th><img src="book-images/image-20211110173446051.png" referrerpolicy="no-referrer" alt="image-20211110173446051"></th><th><span>THE BOARD</span></th></tr></thead><tbody><tr><td>&nbsp;</td><td><span>The Boards consists in two similar pieces of diamond shaped transparent plastic. In your kit you will find two of them.</span></td></tr><tr><td>&nbsp;</td><td><span>They are transparent so you can use them to cover maps you have drawn yourself or a real map or anything else.</span></td></tr><tr><td>&nbsp;</td><td><span>The Grid is the mesh of triangles drawn on the board</span></td></tr><tr><td><img src="book-images/image-20211110173915299.png" referrerpolicy="no-referrer" alt="image-20211110173915299"></td><td><strong><span>THE LAND</span></strong></td></tr><tr><td>&nbsp;</td><td><span>You find transparent triangles to be used to represent the land that you control in the game.</span></td></tr><tr><td>&nbsp;</td><td><strong><span>to decide how many units of lands they have the players throw in the beginning</span></strong><span> 1d4+1</span></td></tr><tr><td><img src="LGJ-Fusion_Addiction.jpg" referrerpolicy="no-referrer" alt="LGJ-Fusion_Addiction"></td><td><span>You can place The Land on The Board, so the terrain is “on” the grid or off The Board, if you put it outside you mean you have no services (electricity, sewerage, running water, etc.) and and you have to provide to all by yourself. </span><br><span>What you see here is an arrangement between the many possible, were the no-grid is represented as two adiacent triangles with no grid drawn.</span><br><span>The Player can put the land were they want taking in account that for all our scenarios the total amount of land is finite. Therefore the master says that there cannot be more than a total of more than N units of land off the grid</span></td></tr></tbody></table></figure><h2 id='the-fortune'><span>THE FORTUNE</span></h2><p><span>Fortune comes (and goes) in many ways. </span></p><figure><table><thead><tr><th>&nbsp;</th><th><span>The Wheel</span></th></tr></thead><tbody><tr><td><img src="book-images/theWeel.png" referrerpolicy="no-referrer" alt="image-20211110175505256"></td><td><span>allows your master to map distribution laws or directions  of winds. It is specified in the scenarios.</span><br><span> To operate it keep it on the palm of your hand and tick the arrow...</span></td></tr><tr><td>&nbsp;</td><td><strong><span>The Dices</span></strong></td></tr><tr><td><img src="image-20211110175632788.png" alt="image-20211110175632788" style="zoom:33%;" /></td><td><span>Dices are for deciding the outcome of an action, an event where all cases have the same chance to happen, or to measure its outcome. For example determining a yield connected to our turn activities. </span><br><span>Is up to the master to tell you which dices to use and how many.</span><br><br><span>PS: </span><strong><span>in the box you will find a set of D&amp;D dices</span></strong><span>, because we like them...</span></td></tr></tbody></table></figure><p>&nbsp;</p><h2 id='the-functional-world'><span>THE FUNCTIONAL WORLD</span></h2><p>&nbsp;</p><figure><table><thead><tr><th>&nbsp;</th><th><span>The Elements</span></th></tr></thead><tbody><tr><td><img src="book-images/theElements.png" referrerpolicy="no-referrer" alt="image-20211110180827882"></td><td><span>You find in the box two types of pieces that are to be used to design the Elements of your activity.    Elements are to be organised on 3 levels: procurement, production, 2.0. </span><br><span>Elements can be combined in lines of production, individually or cooperatively or under any other form of agreement you can come up with. </span><br><span>The Elements are to be written upon with a whiteboard marker, you will find some in the box</span></td></tr><tr><td>&nbsp;</td><td><strong><span>The Shadow</span></strong></td></tr><tr><td><img src="shadow.png" referrerpolicy="no-referrer" alt="image-20211110181051098"></td><td><span>Greys and Whites: the currency of the game </span><br><span>They are translating wide concepts like:     </span><br><span>White: money, cryptocurrency, resources, knowledge, energy etc.;     </span><br><span>Grey: pollution, loss of biodiversity, bad karma, depletion of resources, entropy, CO2 etc.</span></td></tr><tr><td>&nbsp;</td><td><span>Is good for the master to be aware that to avoid color bias, you can invert the colours.</span><br><strong><span>They are beans anyway</span></strong><span>, their colour is not exactly the way to use them in wich they might give scandal...</span></td></tr><tr><td><img src="book-images/Element.png" alt="image-20211110182159885" style="zoom:70%;" /></td><td><span>This is how the procurement element becomes something: On the left in both greys and whites its cost; on the right the yield it can give when operates (in this case 2d6, meaning two 6 sided dices). The top values are the investment cost, both in greys and in whites</span></td></tr></tbody></table></figure><p>&nbsp;</p><h2 id='the-rest-of-the-stuff'><span>THE REST OF THE STUFF</span></h2><p><img src="book-images/plastiline.png" alt="image-20211110185948329" style="zoom:50%;" /><span>You will see in the box: there are markers, this book, sticky notes to write all kind of deals between you, small extra things to play with… AND some colour plastiline that you should already have used...</span></p><p>&nbsp;</p><p><span>If you play as Game Master feel free to customise the kit to your taste and needs for each scenario you want to play or design.</span></p><p>&nbsp;</p><h1 id='2-to-play-a-game'><span>2. To play a game</span></h1><blockquote><p><span>Le Grand Jeu is a future-thinking game that allows to set a situation where different conditions are simulated and concepts emerge from doing, players are peers and all languages intermix </span></p><p><span>…. and a story emerge</span></p></blockquote><p>&nbsp;</p><p><img src="image-20211110184126044.png" alt="image-20211110184126044" style="zoom:50%;" /></p><p>&nbsp;</p><p><span>We ask the players as well to put on their land a piece of plastiline with their color, to recognise them, and then to mimic the thing they will build adding and moulding more details as the game progress.</span></p><p><span>To set up the game now your GM refer to the instructions of the scenario you chose to play</span></p><p><span>Once you have set up the table accordingly you can just start, because all the rules can be introduced wile playing the first round</span></p><h2 id='21-preparation-of-a-simple-game'><span>2.1. PREPARATION OF A SIMPLE GAME</span></h2><ul><li><span>decide who is the master (can be done with a dice throw, the highest score becomes &quot;the Master&quot;)</span></li><li><span>set up the game board</span></li><li><span>let every player throw 2d6 for white and 1d6  for the grey they have at game beginning</span></li><li><span>for each player throw 1d4 for the land they already have </span></li></ul><p><strong><span>RULES</span></strong></p><ul><li><span>Wins who, at the end of the game has more whites after they have been balanced with the greys</span></li><li><span>If the table has more than 50 greys we all die</span></li><li><span>If a player die the global grey pot gets 20 greys and every player gets 5</span></li></ul><p><strong><span>EACH ROUND</span></strong></p><p><span>At their turn the players: </span><u><span>Pay dues</span></u><span> if any, they can be according to the scenario taxes, energy, money or else but are always accounted with the white coin; decide between one of the following</span></p><ul><li><p><span>pay dues</span></p></li><li><p><span>DECIDE WHAT YOU WANT TO DO BETWEEN THESE OPTIONS</span></p><ul><li><span>Personal Action Invest/Build/Entrepreneurship</span></li><li><span>Find/Research/Invent</span></li><li><span>Call an assembly to decide upon a law proposal</span></li></ul></li></ul><p><strong><span>Plastiline ETC.</span></strong></p><p><span>The plastilyne is to mark the land and to build objects that can remind your activity on that corner of the game. Stickies to write upon &quot;smart&quot; contracts etc... Have fun!</span></p><h2 id='211-basic-rules-for-all-scenarios'><span>2.1.1. Basic Rules for all scenarios</span></h2><figure><table><thead><tr><th><span>The element</span></th><th>&nbsp;</th></tr></thead><tbody><tr><td><span>Existing elements</span></td><td><img src="Images-book/3.2.1..png" referrerpolicy="no-referrer" alt="Screen Shot 2021-11-27 at 09.27.41"></td></tr><tr><td><span>Setup</span></td><td><img src="3.2.2..png" referrerpolicy="no-referrer" alt="Screen Shot 2021-11-27 at 09.29.50"></td></tr><tr><td><strong><span>Actions</span></strong></td><td>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td><span>Survive</span></td><td><img src="Images-book/3.2.3..png" referrerpolicy="no-referrer" alt="Screen Shot 2021-11-27 at 09.30.40"></td></tr><tr><td><span>Death ?</span></td><td><img src="Images-book/3.3.5..png" referrerpolicy="no-referrer" alt="Screen Shot 2021-11-27 at 09.32.34"></td></tr><tr><td><span>Invest</span></td><td><span>To determine the success of an investment proposed by a player let him throw </span><strong><span>1d10</span></strong><span> and decide accordingly about success or failure of their investment attempt</span></td></tr><tr><td><span>Call the Assembly</span></td><td><span>Is up to the master to act as a good facilitator of an assembly. Be sure to formulate the proposals of the assembly in the language of the game and let people discuss and vote</span></td></tr><tr><td><span>Invent</span></td><td><span>In this scenario inventions and research are tied to a degree of &quot;plausibility&quot;. The master does not allow to defy the laws of thermodynamics :) </span><br><span>We encourage anyway never to give zero chance to an invention attempt, as strange as it might seam. Use dices/investment in research wisely to pilot the efforts of the players into making a good story. Chose for story and fun first. Ask to other players if your decisions are welcomed. In doubt, throw dices yourself...</span></td></tr><tr><td><span>Welfare Rule</span></td><td><img src="Images-book/3.5.6..png" referrerpolicy="no-referrer" alt="Screen Shot 2021-11-27 at 09.33.42"></td></tr></tbody></table></figure><h3 id='222-events-in-general'><span>2.2.2. Events in general</span></h3><h1 id='-1'><img src="Images-book/3.4.2..png" referrerpolicy="no-referrer" alt="3"></h1><p><span>### </span></p><h2 id='22-how-to-be-gm-for-a-simple-game'><span>2.2. How to be GM for a simple game</span></h2><ul><li><span>You want people to have fun and everyone to speek</span></li><li><span>You play the world both in the scenario (the small game) and outside (the big game), you use dices to take decisions, and have access to the larger store of beans</span></li><li><span>You take care of the rounds and the accounts and to translate what the player decides to do in the language of the game</span></li><li><span>You are the Master of Chaos, have fun</span></li></ul><p>&nbsp;</p><p><span>DECISIONS</span></p><ul><li><p><span>10 faced dices are for percentages. Can be used to determine the success of an action. </span></p><ul><li><span>es: player says &quot;I am going to set up a workshop for electric bikes and solar energy&quot;; Then throws 10 faced dices, and obtain a throw of 6, that on a scoresheet 1 to 10 is a reasonable success.</span></li><li><span>Master reasons: &quot;This exists in our word, and you have empty space to build it, so you can do it. It will cost </span><strong><span>X white</span></strong><span> to establish, and account the generation of </span><strong><span>Y greys</span></strong><span> for the environmental cost of your decision. To operate it will need an investment of x and will produce 1d4 of yield and y greys of impacts on the environment&quot;.</span></li><li><span>Accordingly to the master judgement a success of 100% (or a failure with a throw of 1 or 2) can be prised or punished</span></li></ul></li><li><p><span>20 faces dices are mostly used for inventions. Player says:&quot; I want to invent a technology to have bike batteries that recharge 3 times faster&quot;. The master opens a short discussion with open questions like: &quot;what would you think the advantage would be economically or environmentally&quot;. The master as well decides if the invention is to be allowed (for example contradicts a principle of Thermodynamics). Then considering everything gives a success level on the 20 faces dice, for example 3/20 means only 18,19,20 pass the round with a success. </span>
+<span>To research on something the player has to spend money and generates gray, so is to decide as well how much and if the grey effects the player&#39;s own account or the world one, as if is, as an example, CO2 in the atmosphere.</span></p></li><li><p><span>d4, d6, d8, d12 maps usually the variability of yields, so use them wisely in measuring the yield of activity to map as well the risk. You can decide as well to model losses if you need but the less time you need to account for the economy of a turn the more time you leave to the game to develop.</span></p></li><li><p><span>The use of the Weel is introduced later on in this guide, as a general rule you should play the weal to introduce chaos. Players can throw a round of Weel and pick a card. Is used as well if you need to decide about directions (for example of the wind) in a particular moment.</span></p></li></ul><p><span> </span></p><h2 id='23-play-the-basic-scenario'><span>2.3. PLAY THE BASIC SCENARIO</span></h2><p><span>The basic scenario we usually propose to learn to play the game is something along these lines:</span></p><blockquote><p><span>You and a group of friends have decided to go to live in a beautiful village in the middle of the mountains. You would like to live happy and in harmony with nature. The place is populated by overall friendly people and has some basic grid facilities, but you can as well decide to put yourself off the grid. Internet, water, electricity is available on the grid for 2 white of local tax to be payed at each round. </span></p></blockquote><p><span>We call it the &quot;happy valley&quot; scenario and usually brings out a lot of surprises. </span></p><p><span>The game master has to keep track about the happiness of the &quot;non playing participants&quot; to the life of the valley and treat the players a bit as newcomers... </span></p><p><span>Another suggestion is to give focus not only to economy but to society. In this scenario a GM might give (or take) greys as well for actions that change the karma of players and of the valley atmosphere and not only related to economical advantage and/or production of goods.</span></p><p><span>The weal of fortune can be used at the end of each round to add chaos to the strategies. Try to divide it in 20% chance of getting a LGJ card, another 30% of getting a local event and the rest divided equally between &quot;invent&quot; and a choice between &quot;elections&quot; and &quot;business as usual&quot;.</span></p><p><span>REMEMBER, THE GM HAS TO HAVE FUN AS WELL. </span>
+<span>If you find yourself loosing the &quot;fun element&quot; try to make a short pause or give the mastering task to someone else,  throw dices to pick your future choices or even better take a LGJ card yourself...</span></p><h2 id='231-some-inspiration-for-the-basic-scenario'><span>2.3.1. Some Inspiration for the BASIC scenario</span></h2><p><span>We add in this sections some ready made elements as an inspiration. The cost/yields and dice throws are more or less balanced by us playing, yet the master can decide to variate those balances according to his taste and the success throw of the player. </span></p><p><span>To determine success you can let the player throw 1d10 and decide accordingly.</span></p><figure><table><thead><tr><th><span>A shop</span></th><th><img src="Images-book/3.3.1.a.png" referrerpolicy="no-referrer" alt="Screen Shot 2021-11-27 at 09.45.42"></th></tr></thead><tbody><tr><td><strong><span>An Hospital</span></strong></td><td><img src="Images-book/3.3.2.a.png" referrerpolicy="no-referrer" alt="Screen Shot 2021-11-27 at 09.50.29"></td></tr><tr><td><strong><span>An Art Festival</span></strong></td><td><img src="Images-book/3.3.3a.png" referrerpolicy="no-referrer" alt="Screen Shot 2021-11-27 at 09.53.03"></td></tr><tr><td><span>Special Rules</span></td><td>&nbsp;</td></tr><tr><td><span>To be off the grid...</span></td><td><img src="Images-book/3.3.4a.png" referrerpolicy="no-referrer" alt="Screen Shot 2021-11-27 at 09.54.30"></td></tr><tr><td><span>Spreading of fire and putting it down</span></td><td><img src="Images-book/3.3.5a.png" referrerpolicy="no-referrer" alt="Screen Shot 2021-11-27 at 09.56.11"></td></tr><tr><td><span>Open Source your research</span></td><td>&nbsp;</td></tr><tr><td><span>Costs less? Or is a faster paced innovation model?</span></td><td><img src="Images-book/3.3.6a.png" referrerpolicy="no-referrer" alt="Screen Shot 2021-11-27 at 09.59.15"></td></tr><tr><td><span>Freelance!</span></td><td>&nbsp;</td></tr><tr><td><span>To be a worker can be a good strategy. But how to make more money? </span><br><span>You can debate this with your table, this is just our usual suggestion: you start and build a career if you like. But the master might take grey in consideration: how much bad karma a lawyer gets each turn?</span></td><td><img src="Images-book/3.3.7a.png" referrerpolicy="no-referrer" alt="Screen Shot 2021-11-27 at 10.01.08"></td></tr><tr><td><span>A Research Center?</span></td><td>&nbsp;</td></tr><tr><td>&nbsp;</td><td><img src="Images-book/3.3.8a.png" referrerpolicy="no-referrer" alt="Screen Shot 2021-11-27 at 10.04.25"></td></tr><tr><td><span>To do some criminal activity?</span></td><td>&nbsp;</td></tr><tr><td>&nbsp;</td><td><img src="Images-book/3.3.9a.png" referrerpolicy="no-referrer" alt="Screen Shot 2021-11-27 at 10.06.58"></td></tr></tbody></table></figure><h1 id='3-the-eurofusion-scenarios'><span>3. THE EUROFUSION SCENARIOS</span></h1><p><span>Between 2019 an 2021 we worked at close contact with some elements of the EUROFusion team to design and calibrate some scenarios for you to start playing the FUSION GAME.  </span></p><p><span>After you are comfortable with playing the basic scenario you can dive into one of the scenarios that follow.</span></p><p><span>These games are thought to be played in person. Yet COVID19 tough us as well to have some games from remote. Is not as fun as in person but, with a bit of practice with MIRO boards and patience can be quite fulfilling. Especially for designing new scenarios or to play complex situations with the help of dice throwing bots.</span></p><p><strong><span>ONLINE GAME HELP:</span></strong><span> We mainly used TELEGRAM for coordination and dice throwing (bot name is:@rollembot  Roll &#39;em Bot&#39;) and this custom miro board: </span><a href='https://miro.com/app/board/o9J_lkgLlhk=/' target='_blank' class='url'>https://miro.com/app/board/o9J_lkgLlhk=/</a></p><p><span>Feel free to grab the template and share your owns with other masters and players.</span></p><h2 id='31-key-learnings-for-the-scenarios'><span>3.1. KEY LEARNINGS FOR THE SCENARIOS</span></h2><figure><table><thead><tr><th><span>1.  Understand the Planet carrying capacity</span></th><th>&nbsp;</th></tr></thead><tbody><tr><td><span>1.1  Atmosphere capacity</span></td><td><img src="Images-book/3.1..png" referrerpolicy="no-referrer" alt="Screen Shot 2021-11-27 at 09.19.45"></td></tr><tr><td><span>1.2. Land capacity (wastes &amp; radioactive wastes)</span></td><td><img src="Images-book/3.2..png" referrerpolicy="no-referrer" alt="Screen Shot 2021-11-27 at 09.20.32"></td></tr><tr><td><strong><span>2. Understand the energetic needs, consumption and lifestyle</span></strong></td><td>&nbsp;</td></tr><tr><td><span>2.1. Cost of activities</span></td><td><img src="Images-book/2.1..png" referrerpolicy="no-referrer" alt="Screen Shot 2021-11-27 at 09.21.09"></td></tr><tr><td><span>2.2. Procurement if off-the-grid</span></td><td>&nbsp;</td></tr><tr><td><strong><span>3. Understand the energetic sources features (production and distribution)</span></strong></td><td>&nbsp;</td></tr><tr><td><span>3.1. Fossil: energy production, env impacts, grid, events (raw material procurement)</span></td><td><img src="Images-book/3.3.1..png" referrerpolicy="no-referrer" alt="Screen Shot 2021-11-27 at 09.23.16"></td></tr><tr><td><span>3.2. RES: energy production, env impacts, grid, events (variability)</span></td><td><img src="Images-book/3.3.3..png" referrerpolicy="no-referrer" alt="Screen Shot 2021-11-27 at 09.24.02"></td></tr><tr><td><span>3.3. Fission: energy production, env impacts, grid, events (leaks and accidents)</span></td><td><img src="Images-book/3.3.3..png" referrerpolicy="no-referrer" alt="Screen Shot 2021-11-27 at 09.24.28"></td></tr><tr><td><span>3.4. Fusion: energy production, env impacts, grid, events (spinoff)</span></td><td><img src="Images-book/3.3.4..png" referrerpolicy="no-referrer" alt="Screen Shot 2021-11-27 at 09.24.52"></td></tr></tbody></table></figure><p>&nbsp;</p><p>&nbsp;</p><h2 id='34-scenario-1-addiction'><span>3.4. Scenario 1: Addiction</span></h2><p><span>Set up the game table as indicated in the figure. The left side of the scenario is occupied by a Fossil fuel power plant. The right side is open land off the grid. These two lands have different administrations but one common pot for greys. Let your players chose were to put their activities.</span></p><h1 id='-2'><img src="Images-book/3.4.1..png" referrerpolicy="no-referrer" alt="3"></h1><h3 id='341-events-suggested-for-scenario-1'><span>3.4.1. Events suggested for scenario 1</span></h3><p><img src="Images-book/events1.png" referrerpolicy="no-referrer" alt="Screen Shot 2021-11-27 at 10.30.13"></p><h2 id='35-scenario-2-fossil-vs-renewable'><span>3.5. Scenario 2: Fossil vs Renewable</span></h2><p><span>In this scenario the right board has developed already micro-grids to wich players are allowed to link up. The master will decide every round the amount of energy that the microgrids are able to offer. Note that theto be part of the res micro-grid costs more.</span></p><p><img src="Images-book/scenario2.png" referrerpolicy="no-referrer" alt="Screen Shot 2021-11-27 at 10.16.54"></p><h3 id='351-events-suggested-for-scenario-2'><span>3.5.1. Events suggested for scenario 2</span></h3><h1 id='-3'><img src="Images-book/events2.png" referrerpolicy="no-referrer"></h1><p><span>### </span></p><h2 id='36-scenario-3-the-nuclear-scenario'><span>3.6 Scenario 3: The Nuclear Scenario</span></h2><p><span>There is one bigger land, all covered by a grid. You still can chose to be off the grid putting your land off the board. This grid is served by a nuclear power plant. We have a rule to take in account land use, that can be changed by the Master to fit the details he likes to discuss the case.</span></p><p><img src="Images-book/scenario3.png" referrerpolicy="no-referrer" alt="Screen Shot 2021-11-27 at 10.20.23"></p><h3 id='361-events-suggested-for-scenario-3'><span>3.6.1. Events suggested for scenario 3</span></h3><p><img src="Images-book/events3.png" referrerpolicy="no-referrer" alt="Screen Shot 2021-11-27 at 10.32.49"></p><h2 id='37-scenario-4-the-hybrid-grid'><span>3.7. Scenario 4: The Hybrid Grid</span></h2><p><span>In this scenario we have only one administration, with the same choice of Scenario 2 as of participating or not to a micro-grid instead of a major grid. Micro-grids are operated onto the standard grid (like when you have smart metering). The general opinion is that this scenario wants to find an alternative to the pollution of the fossil power plant. The GM might like to fill the gray pot of this scenario from the beginning to relistic values for a advanced economy, eg. 85% of capacity.</span></p><p><img src="Images-book/scenario4a.png" referrerpolicy="no-referrer" alt="Screen Shot 2021-11-27 at 10.24.27"></p><h3 id='371-events-suggested-for-scenario-4'><span>3.7.1. Events suggested for scenario 4</span></h3><p><img src="Images-book/events4.png" referrerpolicy="no-referrer" alt="Screen Shot 2021-11-27 at 10.33.36"></p><p><span>### </span></p><h2 id='38-scenario-5-the-hybrid-nuclear-grid'><span>3.8. Scenario 5: The Hybrid nuclear grid</span></h2><p><span>As in scenario 5 but the supporting power plant for the grid is mainly taken care by a nuclear power plant. What you want to see in this scenario is the moment in which the fusion power strikes in. Another thing to take in account in this scenario is consumption of the nuclear power plant. The GM can decide how many turns before it has to be decommissioned and the weight of decommission on the local environment.</span></p><p><img src="Images-book/scenario5.png" referrerpolicy="no-referrer" alt="Screen Shot 2021-11-27 at 10.25.51"></p><h3 id='381-events-suggested-for-scenario-5'><span>3.8.1. Events suggested for scenario 5</span></h3><p><img src="Images-book/events5.png" referrerpolicy="no-referrer" alt="Screen Shot 2021-11-27 at 10.34.50"></p><p>&nbsp;</p><h2 id='39-scenario-6-the-two-islands'><span>3.9. Scenario 6: The Two Islands</span></h2><p><span>Two different economies, separated by sea. One island has a grid powered by fossil, the other a RES microgrid of recent conception. The difference in economy is a conversion factor of 1:3, one coin in left becomes 3 coins in right and viceversa.</span></p><p><span>This scenario si very good to play economical consideration between north/spout of the world. The GM can use this as well to set terms about convenience and conflict. Keep an eye on the two land pots and to the local grey count on each.</span></p><p><img src="Images-book/scenario6.png" referrerpolicy="no-referrer" alt="Screen Shot 2021-11-27 at 10.27.20"></p><h3 id='391-events-suggested-for-scenario-6'><span>3.9.1. Events suggested for scenario 6</span></h3><p><img src="Images-book/events6.png" referrerpolicy="no-referrer" alt="Screen Shot 2021-11-27 at 10.36.03"></p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><h2 id='310-scenario-for-fusecom-master-training-addictiongrid'><span>3.10. Scenario for FUSECom Master Training: Addiction+Grid</span></h2><p><img src="Images-book/FUSECom-masterscenario.png" referrerpolicy="no-referrer" alt="Screen Shot 2021-11-27 at 10.38.19"></p><h1 id='-4'><img src="Images-book/FUSECom2.png" referrerpolicy="no-referrer" alt="FUS"></h1><p>&nbsp;</p><h1 id='-5'><img src="Images-book/FUSECom-inspiration.png" referrerpolicy="no-referrer" alt="ins"></h1><p>&nbsp;</p><p><img src="Images-book/FUSECOMScenarioEvents.png" referrerpolicy="no-referrer" alt="Screen Shot 2021-11-27 at 10.46.11"></p><p>&nbsp;</p><h1 id='4-mastering-and-documenting-games'><span>4. Mastering and Documenting Games</span></h1><p><span>Mastering Focus and Documentation</span></p><ol start='' ><li><span>STRESS LEVEL. Balance feeling challenged (learning) and empowered (understanding)</span></li><li><span>CREATIVITY LEVEL. Balance creativity/openness and constrains/structure </span></li><li><span>ENGAGEMENT LEVEL. Balance participation and game tempo</span></li></ol><h3 id='41-game-assessment'><span>4.1. Game Assessment</span></h3><p><span>In every LGJ Box we included a game book. Is a blank, and is to add master notes and rules that come out from every game. The general idea behind is FORKING. Since every game might add new rules to LGJ is interesting to keep memory in the box itself of who played and the new rules invented or of the discourses made. Is up to who mastered to fill this book.</span></p><p><span>At the same time every game can be assessed by the players together to allow bettering the experience and evaluation. We include here and in the link (</span><a href='http://legrandjeu.it/template.zip' target='_blank' class='url'>http://legrandjeu.it/template.zip</a><span>) a two page form that can be printed front rear in bw and passed around to tables to determine the experience of players in each game.</span></p><h1 id='-6'><img src="Images-book/GameAssessment.png" referrerpolicy="no-referrer" alt="Ga"></h1><p>&nbsp;</p><p><img src="Images-book/stories.png" referrerpolicy="no-referrer" alt="Screen Shot 2021-11-27 at 10.50.50"></p><p>&nbsp;</p><h1 id='about-the-authors'><span>ABOUT THE AUTHORS</span></h1><p><strong><span>Federico &quot;fredd&quot; Bonelli</span></strong></p><p><span>Fredd is passionate about creative research, a term without boundaries. He is interested in developing talent mentoring and consulting. Sometimes it involves walking in the woods blindfolded.</span></p><p><span>His repertoire of experiences have led him to several EU funded research projects, a one-of-kind experimental projects. As an artist he has covered many roles in many projects in the years for independent cinema, theatre and performance, visual and digital arts. </span>
+<span> Since 2012 he is running a laboratory for sustainable off the grid performance research named trasformatorio (</span><a href='http://www.trasformatorio.net' target='_blank' class='url'>www.trasformatorio.net</a><span>). Trasformatorio is a neologism for Art Laboratory and Transformations. The methodological insight learned from the lab enriched the methodology “trasformatorio”.</span></p><p><span> He has a degree in philosophy of science</span></p><p><span> </span><a href='mailto:fredd@trasformatorio.net'><span>fredd@trasformatorio.net</span></a></p><p>&nbsp;</p><p><strong><span>Raffaella &quot;raffa&quot; Rovida</span></strong></p><p><span>Raffa is a researcher passionate about trans-disciplinary research and environmental issues.</span></p><p><span>She led the Research unit of the Copenhagen Institute of Interaction Design (</span><a href='http://www.ciid.dk' target='_blank' class='url'>www.ciid.dk</a><span>) for 5 years where she successfully delivered H2020 projects on digital dialogue in cultural spaces, ethics in technology, STEAM and practice-based learning and prototyped a participatory installation for the EUROfusion Expo.She is partner of a consultancy company (</span><a href='http://www.team.it' target='_blank' class='url'>www.team.it</a><span>) active in the European project field where she has been working for 10 years as a researcher and project manager, dealing with urban regeneration projects, simulations of complex systems (System Dynamics), Circular Economy and Life Cycle Assessment.</span></p><p><span>She has a degree in Civil Engineering from the University of Genoa (Italy) and a PhD in Sustainability and Regional Planning from the University of Brescia.</span></p><p><a href='mailto:r.rovida81@gmail.com' target='_blank' class='url'>r.rovida81@gmail.com</a></p><p>&nbsp;</p><p><span> </span></p><h1 id='credits'><strong><span>CREDITS</span></strong></h1><ul><li><p><span>Co-Design sessions: </span></p><ul><li><span>Dpt. Physics, Technical University of Denmark (DTU), February 2020; </span></li><li><span>Remote sessions between Panama and Amsterdam, September-October 2021</span></li></ul></li><li><p><span>Box Design: Daniela Iafrate</span></p></li><li><p><span>Test Players for EUROFusion scenarios: Mohamed Belhorma, Cristina Vignone, Simona Tarantino, Heidi Estibaliz Gutierrez Espinoza, Søren Bang Korsholm, Alexander Simon Thrysøe</span></p></li></ul><p>&nbsp;</p><p>&nbsp;</p><p><span>THANKS TO: DTU.DK, WEMAKE.CC</span></p><p>&nbsp;</p><p><span>© 2016-2021 Federico Bonelli – Raffaella Rovida</span></p><p><span> This work is licensed under</span>
+<span> Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</span></p><p>&nbsp;</p><p>&nbsp;</p><p><a href='http://www.legrandjeu.net' target='_blank' class='url'>www.legrandjeu.net</a><span> | twitter @legrandjeu11 </span></p></div></div>
+
+<script>(function (){var t=document.body.parentElement,e=[],n=null,i=document.body.classList.contains("typora-export-collapse-outline"),r=function(t,e,n){document.addEventListener(t,function(t){if(!t.defaultPrevented)for(var i=t.target;i&&i!=this;i=i.parentNode)if(i.matches(e)){!1===n.call(i,t)&&(t.preventDefault(),t.stopPropagation());break}},!1)};function o(){return t.scrollTop}r("click",".outline-expander",function(t){var e=this.closest(".outline-item-wrapper").classList;return e.contains("outline-item-open")?e.remove("outline-item-open"):e.add("outline-item-open"),c(),!1}),r("click",".outline-item",function(t){var e=this.querySelector(".outline-label");if(location.hash="#"+e.getAttribute("href"),i){var n=this.closest(".outline-item-wrapper").classList;n.contains("outline-item-open")||n.add("outline-item-open"),l(),n.add("outline-item-active")}});var a,s,u=function(){var t=o();n=null;for(var i=0;i<e.length&&e[i][1]-t<60;i++)n=e[i]},l=function(){document.querySelectorAll(".outline-item-active").forEach(t=>t.classList.remove("outline-item-active")),document.querySelectorAll(".outline-item-single.outline-item-open").forEach(t=>t.classList.remove("outline-item-open"))},c=function(){if(n){l();var t=document.querySelector('.outline-label[href="#'+(CSS.escape?CSS.escape(n[0]):n[0])+'"]');if(t)if(i){var e=t.closest(".outline-item-open>ul>.outline-item-wrapper");if(e)e.classList.add("outline-item-active");else{for(var r=(t=t.closest(".outline-item-wrapper")).parentElement.closest(".outline-item-wrapper");r;)r=(t=r).parentElement.closest(".outline-item-wrapper");t.classList.add("outline-item-active")}}else t.closest(".outline-item-wrapper").classList.add("outline-item-active")}};window.addEventListener("scroll",function(t){a&&clearTimeout(a),a=setTimeout(function(){u(),c()},300)});var f=function(){s=setTimeout(function(){!function(){e=[];var t=o();document.querySelector("#write").querySelectorAll("h1, h2, h3, h4, h5, h6").forEach(n=>{var i=n.getAttribute("id");e.push([i,t+n.getBoundingClientRect().y])})}(),u(),c()},300)};window.addEventListener("resize",function(t){s&&clearTimeout(s),f()}),f()})();</script></body>
+</html>
