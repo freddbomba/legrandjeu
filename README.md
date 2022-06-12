@@ -12,12 +12,6 @@ you can follow us from the website www.legrandjeu.net
 - Lead: Federico Bonelli (trasfomatorio dyne.org)
 - Co-designed: Raffaella Ravida (Ciid.dk) and Federico Bonelli
 
-* Consultant for Coin: Marco Sachy dyne.org
-* Consultant for Energy: Alex D´Elia daje.eu
-* Graphic Design: Maddalena Fragnito
-* Line Production in Milan: Maddalena Fragnito, Emanuele Braga (MACAO)
-* Line production in Venice (iteration 8) Marco Baravalle (Sale DOKS)
-
 
 ## Presenti alle sessioni di design MACAO (9-14 Luglio 2016) ITER 1-6 e giocatori attivi:
 Federico Bonelli, Raffaella Rovida, Maddalena Fragnito, Marco Sachy, Emanuele Braga, Camilla Pin, Andrea Masu, Costantino Buongiorno, Zoe Romano, Diego Weisz, Manuela Casiraghi
