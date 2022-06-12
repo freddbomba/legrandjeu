@@ -17,7 +17,11 @@ THe whole story is published on www.legrandjeu.net website and nicely rendered i
 These new scenarios were played and refined in DTU Copenhagen in 2020 and can be played on your LGJ set now.
 
 
-
-
+includes:
+- LeGrandJeu.dxf : lasercut files for board, pieces and box for the EUROFusion edition of the game
+- LGJ.Scenarios-FUSECom.pdf : Presentation for the game master instruction
+- LGJ-EUROFusion-Playbook.html : Playbook for the EUROFusion LGJ box in HTML format
+- LGJ-EUROFusion-Playbook.odt : Playbook for the EUROFusion LGJ box in .odt format
+- LGJ-EUROFusion-Playbook.pdf : Playbook for the EUROFusion LGJ box in .pdf format
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
