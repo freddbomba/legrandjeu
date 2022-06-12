@@ -1,4 +1,7 @@
+###### <img src="loghino-sito-le-grand-jeu-10.png" alt="loghino-sito-le-grand-jeu-10" style="zoom:48%;" />
+
 # legrandjeu
+
 Is a open table game.
 It is presented as a forkable set of rules for infinite games of this type.
 Implements concepts from partecipatory democracy, free culture, complementary currencies, role playing game, sutainable energy and permaculture design.
@@ -9,7 +12,7 @@ the game is a concept and an idea by Federico Bonelli (c)2016
 you can follow us from the website www.legrandjeu.net
 
 
-- Lead: Federico Bonelli (trasfomatorio dyne.org)
+- Lead: Federico Bonelli (Trasformatorio Stichting www.trasformatorio.net)
 - Co-designed: Raffaella Ravida (Ciid.dk) and Federico Bonelli
 
 
@@ -25,7 +28,10 @@ Raffaella Rovida (CIID) and Federico Bonelli
 - Many thanks to SALE DOKS and [Assemblea Sociale per la Casa Venezia](https://www.facebook.com/search/top/?q=casettegiudecca)
 - see again www.legrandjeu.net
 
+## ![Screen Shot 2017-05-16 at 16.28.45](Screen Shot 2017-05-16 at 16.28.45.png)
+
 ## Taiwan 2018
+
 - Intelligent Urban Fabric, Conference Taipei, 17/18 November 2018
 
 ## China 2018
