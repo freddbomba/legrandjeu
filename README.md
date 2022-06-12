@@ -6,11 +6,6 @@ Is a open table game.
 It is presented as a forkable set of rules for infinite games of this type.
 Implements concepts from partecipatory democracy, free culture, complementary currencies, role playing game, sutainable energy and permaculture design.
 
-Le Grand Jeu might refer as well to:
-- The Great Game (in French Le Grand Jeu), the strategic rivalry between the British Empire and the Russian Empire for supremacy in central Asia. See for example the book of Peter Hopkirk "the Great Game"
-- Le Grand Jeu, the title of a French literary review, founded in 1928 by René Daumal and others, surrealist in intent and experimentalist in practice
-- Le Grand Jeu, a 1928 poetry collection by Benjamin Péret from the same circle
-- The Glass Bead Game, a book by Herman Hesse
 
 the game is a concept and an idea by Federico Bonelli (c)2016
 * lead design is by Federico Bonelli and Raffaella Rovida
@@ -22,7 +17,13 @@ you can follow us from the website www.legrandjeu.net
 - Co-designed: Raffaella Ravida (Ciid.dk) and Federico Bonelli
 
 
-## Presenti alle sessioni di design MACAO (9-14 Luglio 2016) ITER 1-6 e giocatori attivi:
+Le Grand Jeu might refer as well to:
+- The Great Game (in French Le Grand Jeu), the strategic rivalry between the British Empire and the Russian Empire for supremacy in central Asia. See for example the book of Peter Hopkirk "the Great Game"
+- Le Grand Jeu, the title of a French literary review, founded in 1928 by René Daumal and others, surrealist in intent and experimentalist in practice
+- Le Grand Jeu, a 1928 poetry collection by Benjamin Péret from the same circle
+- The Glass Bead Game, a book by Herman Hesse printed in 1943. The game described in this book shares nothing with LGJ rules but spiritual echoes.
+
+## Design sessions in MACAO MILAN (9-14 Luglio 2016) itaration 1-6 and active players:
 Federico Bonelli, Raffaella Rovida, Maddalena Fragnito, Marco Sachy, Emanuele Braga, Camilla Pin, Andrea Masu, Costantino Buongiorno, Zoe Romano, Diego Weisz, Manuela Casiraghi
 
 
