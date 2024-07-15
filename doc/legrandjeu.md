@@ -1,4 +1,5 @@
-#¨le Grand Jeu¨
+# ¨le Grand Jeu¨
+
 ## A working example of situation oriented analysis for sustainable micro-economies,
 ## through game and methodologies taken from the arts
 

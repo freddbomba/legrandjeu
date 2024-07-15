@@ -1,4 +1,5 @@
-#¨le Grand Jeu¨
+# ¨le Grand Jeu¨
+
 ## A working example of situation oriented analysis for sustainable micro-economies,
 ## through gamification and artistic methodologies
 
@@ -59,7 +60,7 @@ b) wins who has more white, no matter the Blacks
 
 in case of multiple tables wins the table that has less black
 
----- 
+----
 
 The Game is facilitated by a Master that plays the wheel of Fortune, rules the creation of new Elements and laws, and report the strategies and dynamics arisen on the Diary. The Master should have a basic knowledge of physics, economy and enough creativity to nurture a plausible and fun game playing neutrally.
 
