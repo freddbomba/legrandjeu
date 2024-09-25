@@ -1,4 +1,4 @@
-###### <img src="loghino-sito-le-grand-jeu-10.png" alt="loghino-sito-le-grand-jeu-10" style="zoom:48%;" />
+###### <img src="logo.png" alt="loghino-sito-le-grand-jeu-10" style="zoom:48%;" />
 
 # legrandjeu
 
@@ -35,7 +35,7 @@ Raffaella Rovida (CIID) and Federico Bonelli
 - Many thanks to SALE DOKS and [Assemblea Sociale per la Casa Venezia](https://www.facebook.com/search/top/?q=casettegiudecca)
 - see again www.legrandjeu.net
 
-## ![2017](2017.png)
+## ![2017](splashscreen.png)
 
 ## Taiwan 2018
 
