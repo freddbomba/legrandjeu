@@ -181,8 +181,6 @@ Here’s a list of 30 skills that would be relevant in the mountain bioregion of
 
 
 
-Here’s a set of service skills that would be valuable in the rural, mountain bioregion of the Mediterranean north. These skills represent the essential trades and services needed to support both local residents and newcomers, including digital nomads. They also add interesting gameplay dynamics by connecting characters with the infrastructure and day-to-day operations of the community.
-
 ### **Service Skills for the Region**
 
 1. **Plumbing** – Installing and maintaining water systems for homes, farms, and irrigation setups.
