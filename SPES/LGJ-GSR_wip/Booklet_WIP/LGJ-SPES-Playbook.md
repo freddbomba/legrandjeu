@@ -1,343 +1,617 @@
-# NOTE: TEMPLATE TO BE ADAPTED FOR SPES PROJECT NOT TO BE PRINTED
+# ADAPTED FOR SPES PROJECT
+
+version 1.0 - 3 October 2024![Screen Shot 2021-11-27 at 10.51.21](LGJ-SPES-Playbook.assets/Screen Shot 2021-11-27 at 10.51.21.png)
+
+---
+
+[TOC]
 
 
 
-----
-
-# Copyright
-
-Copyright © 2016-2024 Federico Bonelli and Raffaella Rovida
-
-
-
-- Le Grand Jeu is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. 
-- You can find the necessary files for laser-cutting your own game set on GitHub (https://github.com/freddbomba/legrandjeu).
-
-
-
-TO CONTACT US:
-
-Stichting Trasformatorio
-Linnaeusparkweg 113-iii
-1098CV
-Amsterdam
-
-[www.legrandjeu.net](http://www.legrandjeu.net) | @legrandjeu11 #legrandjeu
-
-
-
-
-
- 
-
-**ACKNOWLEDGEMENTS**
-
-This scenario work has been carried out by Federico Bonelli for SPES PROJECT. Players and scenario co-designers were XXXXXXX  (other acknowledgements will go here)
-
-
-
-# Introduction
-
-
+---
+# 1. Introduction
 
 > **Le Grand Jeu does not** have a moralistic message to deliver, does not impose any alignment to the players and does not provide clear victory rules.
 >
 > Like in real life!
 >
-> This scenario, with the modification of the rules that implies has been made to follow a case proposed by  the SPES project: 
->
+
+## 1.1. The SPES Project
+
+This scenario, with the modification of the rules that it implies, has been prepared for application in the SPES project - Sustainability Performances, Evidence and Scenarios (funded by European Union’s Horizon Europe Programme).
+
+The SPES project deals with the following main research question:
+
 > **How can  productivity, equity, environmental sustainability, participation &  empowerment, and human security be reconciled to drive the transition  towards Sustainable Human Development in Europe?**
->
->  
->
-> SUSTAINABILITY PERFORMANCES, EVIDENCE & SCENARIOS
->
-> A growing  consensus recognizes that economic growth does not inherently lead to  social inclusion and environmental sustainability. Economic, social, and environmental policies in Europe are progressively characterized by a  commitment to sustainable and inclusive growth, leaving no one behind.  But to achieve this, there is a need for original concepts and evidence  that can support European and global policies in the transition towards  achieving sustainable human development.
->
-> 
->
-> ### **About the game**
+
+Within the general scope of the SPES project, its Work Package (WP) #8 aims to understand the drivers of public support for and opposition against transition trajectories towards more socially and environmentally sustainable societies. WP8 addresses the core questions: 
+
+- To what extent do problem perceptions, key transition goals, associated policies and current tools to monitor progress match the attitudes and expectations of citizens in different socio-economic positions?  
+
+- From a bottom-up perspective, how should governments balance efforts to address ecological objectives, including climate change, with other economic and social priorities? 
+
+These questions are examined from the perspective of individuals as well as through a close attention to the formation of the collective interests and preferred policy solutions by citizens, with a particular attention on the youth.
+
+For these reasons, task 8.3 of the SPES project aims to elicit and assess the collective dimension of citizens’ perceptions of the transition, also exposing the process of forming shared opinions.
+
+Therefore, a SPES-tailored version of Le Grand Jeu is deemed very appropriate to uncover collective opinions and preferences about initiatives, policies and instruments that citizens think are most important in promoting and facilitating the sustainability transition. The group-based nature of LGJ will give insights into what kind of concrete policy solutions are likely to encounter the support of citizens if implemented, and the collective political support from groups that are at particular risk of social and economic marginalisation.
+
+For the SPES application, the very general objective of the play is the following:
+
+> **Are we able to jointly design a society/community/city that creates and ensure social value within the planetary boundaries? How? What are the interdependencies among actors?**
+
+In this way, the SPES-tailored version of Le Grand Jeu endorses the SPES framework, and particularly its attention to the five pillars of Sustainable Human Development. Moreover, it resonates with the well-known Doughnut Economics by Kate Haworth that defines a safe and just space for humanity to thrive in.
+
+----
+
+## 1.2. About the game
 
 Le Grand Jeu is the name of a game designed in May-July 2016 by an expert group in a 4 days workshop, held in Milan 10-14 July 2016. The group gathered by Federico included artists, engineers, design experts and activists. The idea was to design a situation where some narratives about the future of our society could be told, crafted and discussed in a positive way together by a group of people.
 
 Some games were from the beginning tools to spread ideas and have people adopt them and use them while reflecting over those issues. Is tha case of many games. LGJ is though to mirror some new concepts that can be quite technical and difficult to explain otherwise: stock and flow value chains, blockchains, radical transparency, consensus, governance, entropy, finite resources, renewable energy and grids are just some examples.
 
-This special edition of LeGrandJeu was **volunteer work** of Federico for GSR Summer school and is there to provide an engaging tool to talk about the complex implications of sustainable travel in an engaging way.
-
-This little book contains an introduction to the game and a scenario specifically designed together with GSR team to enjoy playing the future of humanity starting from a sustainable travel perspective.
-
-**GSR Scenarios** were co-designed by Federico Bonelli and a group of participants during a sprint, carried out Romania's GSR Summer School in July 2024. 
+This little book contains an introduction to the game and a scenario specifically designed for SPES to enjoy playing the future of humanity starting from a sustainability perspective.
 
 The rest is to the master and to the players to find out by doing.
 
-The authors would like to thank all the players that helped us refine these scenarios and will help in the future to shape reality of a better world.
+**NOTE: This playbook will be continuously updated over the course of the SPES project, to be adapted to new ideas emerging during several applications in 7 different countries. The release of its final version is due in late 2025.** 
 
+**To start playing immediately you can jump to chapter 3**
 
+---
 
-# 1. Game Elements
+# 2. Game Elements
 
-## THE PLAYERS
+## 2.1. THE PLAYERS
 
-That's you. 
+That's you.
 
 Pick a color choosing the plastiline you like best.
 
-And then there is a Game Master. It can be one of you. The game master ensures that the game flows and plays the world with everything that is "on the table". The GM is not a player. He is knowledgeable and impartial. More about mastering comes in the Game Mastering (section 4). **Be Aware**: the term GM is a homage to the tradition of role playing games as Dungeons and Dragons, it does not imply specific powers of a "master and servent attitude". A GM serves the game...
+And then there is a Game Master. It can be one of you. The game master ensures that the game flows and plays the world with everything that is "on the table". The GM is not a player but is playing as well. He is knowledgeable and impartial. 
 
+More about mastering comes in the Game Mastering (section 3).
 
+**Be Aware**: *the term GM is a homage to the tradition of role playing games as Dungeons and Dragons, it does not imply specific powers of a "master and servant attitude", on the contrary. A GM serves the game. The right concept to apply is, probably, stewardship*
 
-## THE PHYSICAL WORLD
+## 2.2. THE PHYSICAL WORLD
 
-LGJ is a turn based game. Turns stand for time, and allow to know what comes before and what comes after.
+Time: LGJ is a turn based game. Turns stand for time, and allow to know what comes before and what comes after.
 
 | ![image-20211110173446051](book-images/image-20211110173446051.png) | THE BOARD                                                    |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-|                                                              | The Boards consists in two similar pieces of diamond shaped transparent plastic. |
-|                                                              | In this scenario we use two of them. They are transparent so you can use them to cover maps you have drawn yourself or a real map or anything else. |
-|                                                              | The Grid is the mesh of triangles drawn on the board         |
-| bio region grid: were you travel long distances              | The moving from one piece to the next on the grid is the travel. Every triangle stands for a bioregion some of the players will traverse. |
-| local grid                                                   | another grid stands for one of the bio regions were local economies live and strive. To set your triangle on the grid means that you are connected to civilisation; off the grid that you stand alone. Two triangles connected form a micro grid. |
+|                                                              | The Boards consist in similar pieces of diamond shaped transparent plastic divided in equilateral triangles. |
+|                                                              | In this scenario we use two of them. They are transparent so you can use them to cover maps you have drawn yourself or a real map or anything else. You can use "frottage" to transfer the triangles on paper if you like. |
+| The grid                                                     | **The Grid** is the mesh of triangles drawn on the board. On the grid you have access (for a price) to water, electricity, roads and the internet, as well as the other services we deem part of civilisation. |
+| Bio region grid: where you travel long distances             | The moving from one piece to the next on the grid is the travel. Every triangle might for a bioregion, a day of travel or a unit of space some of the players will traverse. |
+| Local grid                                                   | If to set your triangle on the grid means that you are connected to civilization; if you set yourself off the grid that you stand alone but still everything is possible. Note that two triangles connected form already a micro grid. Feeling like venturing in autonomous self sustainable lifestyle? |
 | ![image-20211110173915299](book-images/image-20211110173915299.png) | **THE LAND**                                                 |
-|                                                              | You find transparent triangles to be used to represent the land that you control in the game. |
-|                                                              | **to decide how many units of lands they have the players throw in the beginning** 1d4+1 |
-|                                                              | **Players can play on the land and-or as travelers**         |
-|                                                              | You can place The Land on The Board, so the terrain is “on” the grid or off The Board, if you put it outside you mean you have no services (electricity, sewerage, running water, etc.) and and you have to provide to all by yourself. <br />What you see here is an arrangement between the many possible, were the no-grid is represented as two adiacent triangles with no grid drawn.<br />The Player can put the land were they want taking in account that for all our scenarios the total amount of land is finite. Therefore the master says that there cannot be more than a total of more than N units of land off the grid |
-| Suggestion                                                   | Draw a map, populate your grid of characteristics, and superimpose the transparent grid to it. |
-| Travelers                                                    | For the traveler we use a procurement house shaped piece from the kit. The idea is that the traveler brings knowledges and life seeds on to the grid... |
+|                                                              | You find transparent triangles to be used to represent **the land** that you control in the game. |
+|                                                              | **to decide how many units of lands they have the players throw in the beginning 1d4** |
+|                                                              | **Players can play on the land and-or as travelers, but they need at least one triangle** |
+| apply color                                                  | Property (or responsability) of a triangle is set by applying a bit of plastiline to it. You give it your colour. |
+|                                                              | You can place **The Land** on **The Board,** so the terrain is “on” the grid or off The Board, if you put it outside you mean you have no services (electricity, sewerage, running water, etc.) and and you have to provide to all by yourself. <br />The Player can put the land were they want taking in account that for all our scenarios the total amount of land is finite. Therefore the master says that there cannot be more than a total of more than N units of land off the grid. |
+| Suggestion                                                   | Draw a map, populate your grid of characteristics, and superimpose the transparent grid to it.<br /> |
+|                                                              |                                                              |
 
-## THE FORTUNE
+## 2.3. FORTUNE
 
-Fortune comes (and goes) in many ways. 
+Fortune comes (and goes) in many ways. Many concepts are given with a pinch of fortune, and we bet on it on long and sort term guesses about the future. So in "le Grand JEu" we throw dices. We prefer to use D&D style dices because we find them fun to use and come in so many forms. Plus they keep alive two ideas: the platonic perfect forms (d4, d6, d8, d12, d20) and the functional and surprising adjustments in the real world (d10)…
 
-We prefer to use D&D style dices because we find them fun to use…
+|                                                              | The Wheel                                                    |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ![image-20211110175505256](LGJ-SPES-Playbook.assets/image-20211110175505256.png) | allows your master to map distribution laws of events **or** decide about directions, for example of winds. It is specified in the scenarios. To operate it keep it on the palm of your hand and tick the arrow... |
+|                                                              | **The Dices**                                                |
+| ![dices](LGJ-SPES-Playbook.assets/dices.jpeg)                | Dices are for deciding the outcome of an action, an event where all cases have the same chance to happen, or to measure its outcome. For example determining a yield connected to our turn activities. Is up to the master to tell you which dices to use and how many.<br />**Dices** are nominated in the standard way: 1d10 means throw one time a 10 faced dice; 2d6 means "throw two six faced dices" and so on. <br /><br />You can find all types of apps that simulate the throw of dices on phone and computer alike were you can input something like 60d6+3d4-1d100 to simulate complex throws |
+|                                                              |                                                              |
+|                                                              |                                                              |
+|                                                              | **The Cards**                                                |
+|                                                              | In this scenario we have thought of 2 sets of cards: one is source of events for the scenario, a second one is set of issues that comes from the "Grand Jeu" and are to be played as global events to which players have to adapt. You will find the cards in the respective tables. Best thing is to keep them as cards, one for each and put them on the table in the beginning. |
 
+## 2.4 LGJ Event Cards
 
+The cards of the forces from the local chaotic events.  **Drawing of a card is decided by the Master (with the wheel or a probability throw of a dice), the effect of the event locally with a round of discussion between the participants.**
 
-|      | The Wheel                                                    |
-| ---- | ------------------------------------------------------------ |
-|      | allows your master to map distribution laws of events **or** directions  of winds. It is specified in the scenarios.<br />![image-20211110175505256](LGJ-GSR-Playbook.assets/image-20211110175505256.png) To operate it keep it on the palm of your hand and tick the arrow... |
-|      | **The Dices**                                                |
-|      | ![dices](LGJ-GSR-Playbook.assets/dices.jpeg)Dices are for deciding the outcome of an action, an event where all cases have the same chance to happen, or to measure its outcome. For example determining a yield connected to our turn activities. Is up to the master to tell you which dices to use and how many.PS: in the box you will find a set of D&D dices, because we like those... <br />**Dices** are nominated in the standard way: 1d10 means throw one time a 10 faced dice; 2d6 means "throw two six faced dices" and so on. |
-|      | **Special Dices**                                            |
-|      | We have found a dice with directions while playing in Romania. We think it is a interesting addition to the game but yet we don't know how. 1d4 can always be used by the master when in doubt on a direction (1-north, 2-west, 3-south, 4-east). |
-|      | **The Cards**                                                |
-|      | In this scenario we have thought of 3 sets of cards: one is source of events for the scenario, another consists in stories that can be taken up by moving players, a third one is set of issues that comes from the "Grand Jeu" and are to be played as global events to which players have to adapt. You will find the cards in the respective tables. Best thing is to keep them as cards, one for each and put them on the table in the beginning. |
+**SUGGESTION FOR GM**: We have prepared some cards for the SPES scenario. A Master, while customising the game to his like can add notes and new cards or remove some. Is a tool to pilot meaningful discussion. We added some suggestions to this table to help the master focus the talk on the social sphere. Ask if people agree, pose questions and let players explore their ideas before defining their choices with a peculiar social response name.
 
-### LGJ Cards
+#### 2.4.1. Table of LGJ events for this scenario
 
-The cards of the forces from the local chaotic events fro the two different continents. The drawing of the card is decided by the Master (probability throw), the effect with a round of discussion between the participants.
+| **Throw** | **Type of Disaster/Event**      | **Description/Notes**                                                                                                                | **Social Sphere**                                                                               |
+|------------|-----------------------------|----------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| **1**          | **Bioregion Chemical Takeover** | A neighboring bioregion shifts to chemical-intensive cereal production, affecting local ecosystems and economies.                | Community division over environmental concerns; protests may arise.                         |
+| **2**          | **Alien Technology**            | Advanced extraterrestrial technology appears, creating confusion and opportunities for innovation or chaos.                      | Mixed reactions; excitement from some, fear and distrust from others.                       |
+| **3**          | **Universal Basic Income**      | A new policy guarantees income for all, impacting local economies, job markets, and social dynamics.                             | Support from lower-income groups, but resentment from those opposed to UBI.                 |
+| **4**          | **Hyperinflation**              | All costs increase by 50%, leading to economic instability and challenges in maintaining livelihoods.                            | Rising tensions as people struggle to afford necessities; potential for unrest.             |
+| **5**          | **Bio Terrorism**               | A foreign country attacks another’s resources; infections spread, risking public health. Roll to determine impact.               | Community fear and paranoia; distrust of outsiders and authorities.                         |
+| **6**          | **Make a Mistake!**             | An unexpected error leads to unforeseen consequences; be creative in describing the event.                                       | Uncertainty and chaos; community may band together to rectify the mistake.                  |
+| **7**          | **Death Cult**                  | A dangerous cult rises, spreading fear and chaos in the community, leading to potential violence.                                | Division within the community; some may be drawn to the cult while others resist.           |
+| **8**          | **Positive Carbon Trading**     | A new carbon trading initiative boosts local economy and encourages sustainable practices.                                       | Generally positive reception; community collaboration in green projects.                    |
+| **9**          | **Global Warming Catastrophe**  | Climate change leads to extreme weather events; roll to determine the specific event (famine, flood, fire, drought, hurricane).  | Increased anxiety about the future; potential for solidarity during crises.                 |
+| **10**         | **Mining Expansion**            | Resource extraction increases, threatening local environments and displacing communities.                                        | Resentment from locals; potential for protests against environmental degradation.           |
+| **11**         | **Urban Exodus/Green Economy**  | A significant movement of people toward greener practices and areas occurs, changing demographics and economic focus.            | Mixed feelings; existing residents may feel threatened by new arrivals.                     |
+| **12**         | **Migration**                   | An influx of newcomers due to climate change or economic factors creates challenges and opportunities for integration.           | Cultural blending but also potential for xenophobia and social tension.                     |
+| **13**         | **Change of Global Policy**     | A new law makes a previously accepted practice illegal, causing disruption in the community.                                     | Resistance from those affected; potential for civil disobedience or reform movements.       |
+| **14**         | **Cartel Control**              | A criminal cartel takes over resource distribution, impacting safety and access to essential goods. Roll to determine influence. | Community fear and helplessness; possible collaboration with law enforcement or vigilantes. |
+| **15**         | **Fake News Crisis**            | Misinformation spreads, leading to panic, division, and misguided actions within the community.                                  | Polarization among residents; trust in institutions erodes further.                         |
+| **16**         | **Famine from Labor Shortages** | A lack of agricultural workers leads to food shortages, impacting health and stability in the area.                              | Desperation and rising crime rates; potential for community-driven food initiatives.        |
+| **17**         | **Investment Opportunities**    | New investments become available, creating potential for growth but also risks of exploitation. Make your pitch!                 | Excitement and hope, but skepticism about who benefits from the investments.                |
+| **18**         | **Cheap Flight Airport**        | A new airport offers low-cost flights, increasing tourism but straining local resources.                                         | Mixed feelings; tourism brings income, but locals may feel overwhelmed.                     |
+| **19**         | **UN Regeneration Program**     | A global initiative based on carbon credits is introduced, providing funding for community regeneration projects.                | Hope for revitalization; potential conflicts over resource allocation.                      |
+| **20**         | **Unmaintained Roads**          | Infrastructure deteriorates, leading to a logistics crisis and difficulties in transportation and trade.                         | Frustration and isolation; possible mobilization for local repair initiatives.              |
+| **21**         | **Global Blackout**             | A massive power failure disrupts daily life, affecting communication, safety, and resources.                                     | Community anxiety and potential for panic; opportunity for mutual aid.                      |
+| **22**         | **Asteroid Impact**             | A catastrophic event occurs when an asteroid hits Earth, leading to widespread destruction and game-ending consequences.         | Total upheaval; communities must come together to survive amidst chaos.                     |
 
+##### How to use the tables
 
+- The GM can **Roll a 1d20** or let people chose from the flushed stack of cards or turn the first down (do you note the difference between these ways?). You will then determine the **disaster or event** affecting your game area, alongside its potential impact on the **social sphere** in a talk between players or out of your own imagination.
+- The social sphere insights will inform how communities react, allowing players to navigate the complex dynamics of the environment effectively.
 
-#### Table of LGJ events for this scenario
+#### 2.4.2.Table of GSR events for the SPES scenario
 
-| number | event                                                        | notes                                                        |
-| ------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 1      | A bioregion on your borders is taken over by a chemical intensive cereal production |                                                              |
-| 2      | Alien Technology                                             |                                                              |
-| 3      | Universal Basic Income                                       |                                                              |
-| 4      | Hyperinflation: all costs are increased 50% going forward    |                                                              |
-| 5      | Bio terrorism: A country attacks and take another countries ressources but their infected go up (we roll the dice) |                                                              |
-| 6      | make a mistake! (be creative)                                |                                                              |
-| 7      | Death Cult                                                   |                                                              |
-| 8      | Carbon Trading positive                                      |                                                              |
-| 9      | Global Warming: a climate catastrophe makes it harder to produce and isolate; roll dice to select type of event (famine, flood, fire, drought, hurricane) |                                                              |
-| 10     | Mining                                                       |                                                              |
-| 11     | Urban exodus/Green economy:                                  |                                                              |
-| 12     | Migration                                                    |                                                              |
-| 13     | Change of global policy                                      | Something becomes illegal                                    |
-| 14     | Cartel                                                       | Cartel takes control of rule enforcement and resource distribution for the region of one player, determined by a dice roll |
-| 15     | Fake news                                                    |                                                              |
-| 16     | Famine from lack of agriculture workers                      |                                                              |
-| 17     | Investments are available, make your pitch                   |                                                              |
-| 18     | Airport for cheap flights                                    |                                                              |
-| 19     | UN rolls out regeneration program based on carbon credit     |                                                              |
-| 20     | Roads are unmaintained: logistic crisis                      |                                                              |
-| 21     | Global Black Out                                             |                                                              |
-| 22     | Asteroid hits earth: game over                               |                                                              |
+yes, this happens personally to you, the player!
 
-#### Table of GSR events in this scenario: yes, this happens to you, the player!
+Here’s an integrated table that combines the **SPES events** affecting the player with the previous tables for a comprehensive gameplay experience. Each player event retains its original definition, and I’ll add a **"Social Sphere"** column to reflect how these events impact the player's social dynamics.
 
-| number | event                                                        | notes |
-| ------ | ------------------------------------------------------------ | ----- |
-| 1      | tax inspector                                                |       |
-| 2      | a travelers camp sets in your land                           |       |
-| 3      | you get depression                                           |       |
-| 4      | double your basic income (if you have any)                   |       |
-| 5      | bees in your garden                                          |       |
-| 6      | a new mega shopping center opens up in your area             |       |
-| 7      | you find out you gave your friends in                        |       |
-| 8      | cold winter half your energy harvest                         |       |
-| 9      | you don't ear the alarm, miss a round                        |       |
-| 10     | you fall in love                                             |       |
-| 11     | goats destroy everything                                     |       |
-| 12     | a flood destroys your garden                                 |       |
-| 13     | you learn to fly                                             |       |
-| 14     | new subsidies on wind plants                                 |       |
-| 15     | hard disk crash and backup does not work (or other fail in the IT infrastructure) |       |
-| 16     | you get hacked                                               |       |
-| 17     | you decide to breack bad                                     |       |
-| 18     |                                                              |       |
-| 19     |                                                              |       |
-| 20     |                                                              |       |
-| 21     |                                                              |       |
-| 22     |                                                              |       |
+| **1d22 Throw** | **Event**                         | **Notes**                                                                                     | **Social Sphere**                                                                      |
+|------------|-------------------------------|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
+| **1**          | **Tax Inspector**                 | A tax audit is initiated, causing stress and potential financial strain.                  | Increased anxiety and potential for conflict with authorities.                     |
+| **2**          | **Travelers Camp Sets Up**        | A group of travelers establishes a camp on your land, leading to complications.           | Community debate over land use; some may support, others resist.                   |
+| **3**          | **Depression**                    | You experience a bout of depression, impacting your productivity and social interactions. | Possible isolation from the community; friends may rally for support.              |
+| **4**          | **Double Your Basic Income**      | Your basic income is unexpectedly doubled, improving your financial situation.            | Increased opportunities for community involvement and investment.                  |
+| **5**          | **Bees in Your Garden**           | A swarm of bees takes up residence in your garden, affecting your crops and pollination.  | Local interest in beekeeping; potential conflicts with neighbors.                  |
+| **6**          | **Mega Shopping Center Opens**    | A new shopping center opens nearby, affecting local businesses and community dynamics.    | Tension between traditional markets and modern retail; possible community divides. |
+| **7**          | **Betrayal by Friends**           | You discover that you inadvertently caused trouble for friends, creating tension.         | Distrust may grow among social circles; potential for reconciliation efforts.      |
+| **8**          | **Cold Winter Affects Harvest**   | Harsh winter conditions halve your energy harvest, impacting your resources.              | Community solidarity in facing shared hardships; increased reliance on mutual aid. |
+| **9**          | **Missed Alarm**                  | You fail to wake up in time and miss an important event or deadline.                      | Disappointment from peers; may affect reputation within the community.             |
+| **10**         | **Fall in Love**                  | You develop a romantic interest, bringing joy but also potential distractions.            | Community support or gossip, depending on the relationship dynamics.               |
+| **11**         | **Goats Destroy Everything**      | Goats (yours or neighbors') wreak havoc on your crops, leading to frustration.            | Possible neighbor disputes; may need to negotiate solutions.                       |
+| **12**         | **Flood Destroys Garden**         | A sudden flood devastates your garden, affecting food supply and morale.                  | Community rallies to support recovery efforts; shared resources become crucial.    |
+| **13**         | **Learn to Fly**                  | You acquire a new skill or hobby that opens up new perspectives or opportunities.         | Inspiration for others; potential for community workshops.                         |
+| **14**         | **New Subsidies for Wind Plants** | You receive subsidies to invest in wind energy, boosting your income and sustainability.  | Community discussions about renewable energy and environmental initiatives.        |
+| **15**         | **Hard Disk Crash**               | A major IT failure results in loss of important data, complicating your work.             | Distrust in technology; may lead to community knowledge sharing about backups.     |
+| **16**         | **Hacked**                        | Your personal or business accounts are hacked, leading to potential financial loss.       | Distrust within the community; heightened awareness of cybersecurity issues.       |
+| **17**         | **Decide to Break Bad**           | You consider engaging in questionable activities to improve your situation.               | Moral dilemmas may divide social circles; some may support, others condemn.        |
 
-#### Stories Cards
+##### Notes on the use of the event cards:
 
-We decided to collect some basic storylines from and for travelers, we should pop corn those, as a bunch of cards to take if you are dubious as a starter or as a way to involve in role playing newcomers. Popcorn here...
+- as before **Roll a dice** or use pre made cards to determine the specific **event affecting your playing character**, along with its **social implications**.
+- These events add personal stakes to the game, intertwining character development with the broader community dynamics and challenges present in the bioregion.
+- Some spaces are left empty to let the master (or the other participants to the game) to fill them in...
 
-| number | event | notes |
-| ------ | ----- | ----- |
-| 1      |       |       |
-| 2      |       |       |
-| 3      |       |       |
-| 4      |       |       |
-| 5      |       |       |
-| 6      |       |       |
-| 7      |       |       |
-| 8      |       |       |
-| 9      |       |       |
-| 10     |       |       |
-| 11     |       |       |
-| 12     |       |       |
-| 13     |       |       |
-| 14     |       |       |
-| 15     |       |       |
-| 16     |       |       |
-| 17     |       |       |
-| 18     |       |       |
-| 19     |       |       |
-| 20     |       |       |
-| 21     |       |       |
-| 22     |       |       |
+This table will help enrich the narrative experience by incorporating personal challenges alongside community-level events, creating a more immersive role-playing environment.
 
-
-
-
-
-## THE FUNCTIONAL WORLD
-
-
+## 2.5.THE FUNCTIONAL WORLD
 
 |                                                              | The Elements                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ![image-20211110180827882](/home/fredd/Nextcloud/2024-gsr-school/LGJ/LGJ-GSR_wip/GSR-Booklet_WIP/book-images/image-20211110180827882.png) | You find in the box two types of pieces that are to be used to design the Elements of your activity.    Elements are to be organised on 3 levels: procurement, production, 2.0. <br />Elements can be combined in lines of production, individually or cooperatively or under any other form of agreement you can come up with. <br />The Elements are to be written upon with a whiteboard marker, you will find some in the box |
 |                                                              | **The Shadow**                                               |
-| ![shadow](/home/fredd/Nextcloud/2024-gsr-school/LGJ/LGJ-GSR_wip/GSR-Booklet_WIP/book-images/shadow.png) | Greys and Whites: the currency of the game <br />They are translating wide concepts like:     <br />White: money, cryptocurrency, resources, knowledge, energy etc.;     <br />Grey: pollution, loss of biodiversity, bad karma, depletion of resources, entropy, CO2 etc. |
-|                                                              | Is good for the master to be aware that to avoid any color bias, you can always invert the colours.<br />They are beans anyway, their color is not exactly the way they might give scandal... |
-|                                                              | PS all our existing currencies carries discrimination in many ways, would you feel like making a list? |
-| ![](LGJ-GSR-Playbook.assets/reddot.jpg)                      | Red Dots mean knowledge you carry with you. Is something you master well enough to use and teach. Can be anything, from robotics to permaculture, to plant lore, on how to make colors from plants and minerals, tree pruning, tree housing, plumbing, car repair skills, dental surgery... |
+| ![shadow](/home/fredd/Nextcloud/2024-gsr-school/LGJ/LGJ-GSR_wip/GSR-Booklet_WIP/book-images/shadow.png) | Greys and Whites are the main currency of the game.<br />(you can render that with different dry beans, glass beads, game fishes or stones from the GO game...) They are translating wide concepts like:     <br />White: money, cryptocurrency, resources, knowledge, energy etc.;     <br />Grey: pollution, loss of biodiversity, bad karma, depletion of resources, entropy, CO2 etc. |
+|                                                              | *Is good for the master to be aware that to avoid any color bias, you can always invert the beans.*<br />*They are beans anyway, their color is not exactly the way they might give scandal...* |
+| the ST                                                       | In the SPES scenario we have introduced a token representing the social value of the society/community attributed by the players at each round. |
 |                                                              |                                                              |
-| ![2.1.](/home/fredd/Nextcloud/2024-gsr-school/LGJ/LGJ-GSR_wip/GSR-Booklet_WIP/book-images/2.1..png) | This is how the procurement element becomes something: On the left in both grays and whites its cost; on the right the yield it can give when operates (in this case 2d6, meaning two 6 sided dices). The top values are the investment cost, both in grays and in whites |
+|                                                              |                                                              |
+
+### 2.5.1 Procurement in detail
+
+This is how the procurement fishes are designed to work:
+
+![image-20211110182643440](LGJ-SPES-Playbook.assets/image-20211110182643440.png)
+
+This is how the procurement element becomes something: On the left in both grays and whites its cost; on the right the yield it can give when operates (in this case 2d6, meaning two 6 sided dices). The top values are the investment cost, both in grays and in whites
+
+When you expand or extend your procurement you add to it a new piece:
+
+![](LGJ-SPES-Playbook.assets/image-20211110181737371.png)
+
+![image-20211110180827882](LGJ-SPES-Playbook.assets/image-20211110180827882.png)
 
 
 
-## THE REST OF THE STUFF
+this is the schematics: you can then read left right and add per columns the cost and the yeald of each procurement the players manages to construct.
 
-You will see in the box: there are markers, this book, sticky notes to write all kind of deals between you, small extra things to play with… AND some colour plastiline that you should already have used...
+### 2.5.2 an example: a worker evolution in time
 
-Post it notes, maps, pencils and wires of various colors your fantasy is the limit... If you play as Game Master feel free to customize the kit to your taste and needs for each scenario you want to play or design.
+The following example is for a player that just decides to employ as a worker and has a long career:
 
-# 2. TO PLAY A GAME
+![3.3.7a](LGJ-SPES-Playbook.assets/3.3.7a.png)
 
-> Le Grand Jeu is a future-thinking game that allows to set a situation where different conditions are simulated and concepts emerge from doing, players are peers and all languages intermix 
+as you see every steps of the career has a cost, the amount of gray (stress for example) is fixed and the value of their work rises in time.
+
+### 2.5.3. Examples of game modeling complex events 
+
+In this other example we use our wheel to simulate a fire:
+
+![3.3.5a](LGJ-SPES-Playbook.assets/3.3.5a.png)
+
+the rule was modeled during one of the workshops in Dublin when an island was engulfed by raging fires. Might be a simplification but follows an approach from probability theory. You need to invest resources to surround the fire and extinguish it. Adiacent areas have to throw a dice to see if they get to burn.
+
+We used a similar approach to play in the scenario about COVID19.
+
+You find a lot of inspiration on legrandjeu.net about games that were played and solution that were found. Keep sharing your ideas with us.
+
+### 2.5.4. ON-or-OFF the grid
+
+this is a standard rule for those that want to be off the grid. Position their triangles outside the grid to indicate it. What happens if you set yourself outside the grid? Is your contribution to the local economy different? What are your needs? What activities you can do if you set yourself aside? Can more naighbours set themselve as a micro society by forming a microgrid toghether? Do the concepts from electicity and labour apply? A lot of questions for the master and players. A good masters let the players explore the game by playing and poses the questions at the right time...
+
+What follow is the procurement for a basic infrastructure off the grid. Includes micro solar-batteries combo or a diesel generator, a connection to the net, ways to get to the closest bus stop. You can variate accordingly the costs in gray and white.
+
+![3.3.4a](LGJ-SPES-Playbook.assets/3.3.4a.png)
+
+## 2.6 MORE INSPIRATION
+
+Form the many games played since 2016 we have written on our master booklet many instant solutions to so many player ideas and wishes... rules that were invented on the spot by them or by us and were successful enough to be written, remembered and quoted since.
+
+Most of these models have been invented during play with the help of the gamers, often experts in the field. 
+
+![from EUROFUSION booklet](LGJ-SPES-Playbook.assets/Screen Shot 2021-11-27 at 10.39.11.png)
+
+![Screen Shot 2021-11-27 at 10.44.01](LGJ-SPES-Playbook.assets/Screen Shot 2021-11-27 at 10.44.01.png)
+
+## 2.7.THE REST OF THE STUFF
+
+You will add some suff to the game master box: there are markers, this book, sticky notes to write all kind of deals between you, small extra things to play with… Post it notes, maps, pencils and wires of various colors your fantasy is the limit...
+
+CUSTOMISE!
+
+If you play as Game Master feel free to customize the kit to your taste and needs for each scenario you want to play or design.
+
+# 3. TO PLAY A SPES GAME
+
+> Le Grand Jeu is a future-thinking game that allows to set a situation where different conditions are simulated and concepts emerge from doing, players are peers and all languages intermix
 >
 > …. and a story emerge
 
+<u>The very general objective of the play is:</u> **Are we able to jointly design a society/community/city that creates and ensure social value within the planetary boundaries? How? What are the interdependencies among actors?**
 
-
-- We ask the players as well to put on their land a piece of plastiline with their color, to recognize them, and then to mimic the thing they will build adding and moulding more details as the game progress.
+- We ask the players as well to put on their land a piece of plastiline with their color, to recognize them, and then to mimic the thing they will build adding and molding more details as the game progress.
 - To set up the game now your GM refer to the instructions of the scenario you chose to play
 - Once you have set up the table accordingly you can just start, because all the rules can be introduced wile playing the first round
 
-## 2.1. PREPARATION OF A SIMPLE GAME
+## 3.1. PREPARATION
 
- 
+**A FEW DAYS BEFORE THE GAME...**
+
+A short clip / presentation is shared with all players (to be watched before the game) to set common parameters on the main elements of the game (objective, definition of social value, definition of planetary boundaries, etc.).
+
+In addition, a short questionnaire is filled out before the game (some days before) to collect information from each player on interests, perceptions, attitudes, and the interpretation of social value.
+
+## 3.2 START OF THE GAME
 
 - decide who is the master (can be done with a dice throw, the highest score becomes "the Master")
 - set up the game board
-
-- set up two bowls of beans of different color
-
+- set up three bowls of beans of different color
 - let every player throw 2d6 for white and 1d6  for the gray they have at game beginning
+- for each player throw 1d4+1 for the land they already have
 
-- for each player throw 1d4 for the land they already have 
+## 3.3. SPES scenario victory rules
 
-**RULES**
+- INDIVIDUAL WIN: Wins who, at the end of the game, has more whites after they have been balanced with the grays (as a proxy of the environmental sustainability of the player)
+- COLLECTIVE WIN: The society/community built over the game will be considered coherent with the SPES framework if it ensures a solid social foundation (min 10 social token) and does not overshoot planetary boundaries (max 50). This rule is not communicated to players at the beginning of the game, but only revealed at the end.
+- If the table has more than 50 grays we all die, to make the Ecological ceiling principle operational.
+- If a player dies the global gray pot gets 20 grays and every player gets 5, to make the "Leave no one behind" principles operational.
 
-- Wins who, at the end of the game has more whites after they have been balanced with the grays
-- If the table has more than 50 grays we all die
-- If a player die the global gray pot gets 20 grays and every player gets 5
+## 3.4. EACH ROUND
 
-**EACH ROUND**
-
-At their turn the players: <u>Pay dues</u> if any, they can be according to the scenario taxes, energy, money or else but are always accounted with the white coin; decide between one of the following
+At their turn the players: <u>Pay dues</u> (if any) they can be according to the scenario taxes, energy, money or else but are always accounted with the white coin; decide between one of the following
 
 - Invest/Build/Entrepreneurship action
 - Find/Research/Invent
 - Call an assembly to decide upon a law proposal
 
+At the end of each round, all players discuss the social value jointly created in their commons and assign themselve a value (from 0 to 3)
 
+## 3.5. END OF THE GAME
 
-## 2.2. How to be GM for a simple game
+The game is suspended after 5/6 full rounds. (The game should last 2.5 hours on average even for first timer players).
 
+A final wrap-up session takes place to comment on both the outcome  (winner, social value, environmental impact) and the game experience, through individual comments (e.g., 3 minutes each) and a collective discussion.
 
+Then evaluate , and the story about how each table has achieved these results
 
-- You want people to have fun and everyone to speek
+## 3.6. A FEW DAYS AFTER THE GAME...
+
+A short feedback questionnaire is filled out after the game on the experience and change of attitudes / interpretations of social value and planetary boundaries
+
+# 4. MASTERING
+
+- You want people to have fun and everyone to speak
+
 - You play the world both in the scenario (the small game) and outside (the big game), you use dices to take decisions, and have access to the larger store of beans
+
 - You take care of the rounds and the accounts and to translate what the player decides to do in the language of the game
 
-- You are the Master of Chaos, have fun
+- You are the Master of Chaos, insert novelty
 
+- Have fun
 
+- You can use an hourglass/sand timer to limit the time of discussion (in Assembly) or decisions, (if necessary). Other techniques can be the stick of speak, to throw the dice to go clockwise etc. Try to give space to everyone to play. 
 
-DECISIONS
+- Don't focus on the rule but on the flow, let always the game flow.
+
+- If you are in doubt ask the collective knowledge but then take fast a decision
+
+  ![image-20240930205716492](LGJ-SPES-Playbook.assets/image-20240930205716492.png)
+
+  
+
+## 4.1. DECISIONS
 
 - 10 faced dices are for percentages. Can be used to determine the success of an action. 
   - es: player says "I am going to set up a workshop for electric bikes and solar energy"; Then throws 10 faced dices, and obtain a throw of 6, that on a scoresheet 1 to 10 is a reasonable success.
   - Master reasons: "This exists in our word, and you have empty space to build it, so you can do it. It will cost **X white** to establish, and account the generation of **Y greys** for the environmental cost of your decision. To operate it will need an investment of x and will produce 1d4 of yield and y greys of impacts on the environment".
   - Accordingly to the master judgement a success of 100% (or a failure with a throw of 1 or 2) can be prised or punished
-- 20 faces dices are mostly used for inventions. Player says:" I want to invent a technology to have bike batteries that recharge 3 times faster". The master opens a short discussion with open questions like: "what would you think the advantage would be economically or environmentally". The master as well decides if the invention is to be allowed (for example contradicts a principle of Thermodynamics). Then considering everything gives a success level on the 20 faces dice, for example 3/20 means only 18,19,20 pass the round with a success. 
-  To research on something the player has to spend money and generates gray, so is to decide as well how much and if the grey effects the player's own account or the world one, as if is, as an example, CO2 in the atmosphere.
+- 20 faces dices are mostly used for inventions. Player says:" I want to invent a technology to have bike batteries that recharge 3 times faster". The master opens a short discussion with open questions like: "what would you think the advantage would be economically or environmentally". The master as well decides if the invention is to be allowed (for example contradicts a principle of Thermodynamics). Then considering everything gives a success level on the 20 faces dice, for example 3/20 means only 18,19,20 pass the round with a success. To research on something the player has to spend money and generates gray, so is to decide as well how much and if the grey effects the player's own account or the world one, as if is, as an example, CO2 in the atmosphere.
 - d4, d6, d8, d12 maps usually the variability of yields, so use them wisely in measuring the yield of activity to map as well the risk. You can decide as well to model losses if you need but the less time you need to account for the economy of a turn the more time you leave to the game to develop.
-
 - The use of the Weel is introduced later on in this guide, as a general rule you should play the weal to introduce chaos. Players can throw a round of Weal and pick a card. Is used as well if you need to decide about directions (for example of the wind) in a particular moment.
+- At the end of each round, the master should guide the players in discussing the meaning of social value and whether they believe the collective deserves the Social Tokens (up to 3). This will help capture the participants' interpretation of social value and observe if it evolves throughout the game through playing together and engaging in these discussions.
 
- 
+### Customizing Skills
 
-## 2.3. PLAY THE BASIC SCENARIO
+You can create skill lists tailored to the setting or the specific characters. For example:
+
+- **a player**: Permaculture, Water Management, Circular Economy.
+- **another player**: Animal Husbandry, Foraging, Traditional Craftsmanship.
+
+Roll a d6 for each skill to determine proficiency:
+
+- 1-2: Basic -2
+- 3-4: Proficient -
+- 5-6: Expert +1
+
+Here’s a list of 30 skills that would be relevant in the mountain bioregion of the Mediterranean north, covering various aspects of survival, sustainability, local craftsmanship, and community-building. You can assign these skills to NPCs and players, and use them in your role-playing game.
+
+## 4.2. OBSERVER/ STORYTELLER
+
+For the SPES game-workshops we point out the necessity of a team of two. The GM and a observer. The observer takes notes to be able to tell the story of the game at the end and to note down attitudes and roles that emerged relating them to the scopes of the players group.
+
+ The storytelling function is very important, because we learn tools to build stories. 
+
+She/He should also use post-it and colors to take notes on policies, approaches to solve problems, etc. (useful also for a matter of comparability across countries). 
+
+The Observer is mandated to write the story of the game and to do so collects the points of view and perspectives of the players during and after the game.
+
+## 4.3. MORE GAME MASTERING TIPS
+
+We list here some of the skills that people might want to explore-learn-simulate in the game. Many more can be invented, introduced, both in preparation of the game and during it.
+
+- Use your imagination
+- access collective knowledge, ask your players
+- model processes, put them on the table so that the table tells you what to do
+- throw the dice, if you don't know anything you can get to a yes-no and give yourself a 50/50 chance
+- you are the master of chaos
+
+You can prepare tables to distribute anything that is in the scenario that you wish to play with your players. The following is an example:
+
+Here’s a table for a 1d20 roll that assesses **social values** and **crime** in the rural area, helping to determine if a character is welcome or not. The table includes a range of social conditions, from highly welcoming to hostile, reflecting community dynamics, crime levels, and social cohesion.
+
+# 5. THE BASIC SCENARIO
 
 The basic scenario we usually propose to learn to play the game is something along these lines:
 
-> You and a group of friends have decided to go to live in a beautiful village in the middle of the mountains. You would like to live happy and in harmony with nature. The place is populated by overall friendly people and has some basic grid facilities, but you can as well decide to put yourself off the grid. Internet, water, electricity is available on the grid for 2 white of local tax to be payed at each round. 
+> You and a group of friends have decided to go to live in a mid-sized city characterized by a dynamic core area, some rural adjacent restorable land and some off-the-grid "wilder" wilderness. You would like to live happy in a cohesive society and in harmony with nature. The place is populated by overall friendly people and has some basic grid facilities, but you can as well decide to put yourself off the grid. Basic infrastructure (e.g., internet, water, electricity) and basic social services are available on the grid for 3 white of local tax to be payed at each round.
 
-We call it the "happy valley" scenario and usually brings out a lot of surprises. 
+We call it the "wellbeing city" scenario and usually brings out a lot of issues to ensure a safe and just space for human flourishing for all.
 
-The game master has to keep track about the happiness of the "non playing participants" to the life of the valley and treat the players a bit as newcomers... 
+The game master has to keep track about the wellbeing of the "non playing participants" to the life of the city and treat the players a bit as newcomers...
 
-Another suggestion is to give focus not only to economy but to society. In this scenario a GM might give (or take) greys as well for actions that change the karma of players and of the valley atmosphere and not only related to economical advantage and/or production of goods.
+Another suggestion is to give focus not only to economy but to the society. In this scenario a GM might give (or take) greys as well for actions that change the karma of players and of the city atmosphere and not only related to economical advantage and/or production of goods.
 
-The weal of fortune can be used at the end of each round to add chaos to the strategies. Try to divide it in 20% chance of getting a LGJ card, another 30% of getting a local event and the rest divided equally between "invent" and a choice between "elections" and "business as usual".
+The wheal of fortune can be used at the end of each round to add chaos to the strategies. Try to divide it in 50% chance of getting a LGJ card, another 20% of getting a local event and the rest divided equally between "invent" and a choice between "elections" and "business as usual". Alternatively, after the 3rd round a LGJ event happens.
 
-REMEMBER, THE GM HAS TO HAVE FUN AS WELL. 
-If you find yourself loosing the "fun element" try to make a short pause or give the mastering task to someone else,  throw dices to pick your future choices or even better take a LGJ card yourself...
+**REMEMBER, THE GM HAS TO HAVE FUN AS WELL.**
+If you find yourself losing the "fun element" try to make a short pause or give the mastering task to someone else,  throw dices to pick your future choices or even better take a LGJ card yourself...
 
-# 3. SPES GAME SCENARIO
+# APPENDIX
 
-## 3.1. pre made roles
+## TABLE OF SOCIAL RESPONSE TO NEWCOMERS
 
-## 3.2. COMMERCE AND LOGISTICS rules
+| **1d20 Throw** | **Social Values and Conditions**                                                                                        | **Crime Level**                                                                                  | **Community Reception**                                                                                                 |
+|------------|---------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| **1**          | **Hostile Environment** – Strong distrust of outsiders. Community values secrecy and is deeply fragmented.              | **Very High** – Organized crime is prevalent; violence and intimidation are common.              | **Not Welcome** – Significant risk of confrontation; outsiders are viewed with suspicion.                               |
+| **2-3**        | **Unwelcoming** – Community is insular, valuing tradition over change. Outsiders are met with skepticism.               | **High** – Crime is rampant, with petty crime and occasional violent incidents.                  | **Not Welcome** – Hard to integrate; any attempts at engagement are met with hostility.                                 |
+| **4-5**        | **Guarded** – Some community members are friendly, but overall, there is a wariness of newcomers.                       | **Moderate** – Occasional petty theft or vandalism; serious crime can occur sporadically.        | **Somewhat Unwelcome** – Efforts to integrate may yield limited success; cautious engagement recommended.               |
+| **6-7**        | **Cautiously Welcoming** – Mixed feelings towards outsiders; some acceptance, but significant reservations remain.      | **Moderate** – Petty crimes are common, but violent crime is rare.                               | **Somewhat Welcome** – Possible to find allies; gaining trust may take time and effort.                                 |
+| **8-9**        | **Ambivalent** – Community is indifferent; some support for outsiders, but many prefer to keep to themselves.           | **Low to Moderate** – Rare incidents of theft or property damage, but community policing exists. | **Welcome with Caution** – Integration possible, but engagement is necessary to build trust.                            |
+| **10-11**      | **Neutral** – A balanced perspective towards newcomers; some see value in collaboration, while others resist change.    | **Low** – Minimal crime; community-focused initiatives keep crime low.                           | **Somewhat Welcome** – Opportunity exists for positive relationships; shared interests can foster trust.                |
+| **12-13**      | **Friendly** – Many community members are open to engaging with newcomers, valuing cooperation and support.             | **Very Low** – Crime is rare; a strong sense of community accountability exists.                 | **Welcome** – Potential for collaboration; community activities can foster integration.                                 |
+| **14-15**      | **Inclusive** – Community actively encourages participation and values diverse contributions.                           | **Very Low** – Crime is almost non-existent; community works together to resolve disputes.       | **Very Welcome** – Strong community support; newcomers are seen as valuable assets.                                     |
+| **16-17**      | **Welcoming** – Enthusiastic acceptance of newcomers; a sense of shared purpose drives collective efforts.              | **Minimal** – Any crime is dealt with quickly and effectively by the community.                  | **Highly Welcome** – Opportunities for collaboration and support abound; new ideas are embraced.                        |
+| **18-19**      | **Supportive** – A vibrant, engaged community that thrives on diversity and welcomes contributions from all.            | **Negligible** – Criminal activity is rare; community safety is a priority.                      | **Extremely Welcome** – Newcomers are seen as integral to community development and success.                            |
+| **20**         | **Ideal Community** – A harmonious, diverse society with strong social values promoting sustainability and cooperation. | **Nonexistent** – No crime; community actively promotes well-being and social support.           | **Unconditionally Welcome** – Newcomers are celebrated and actively encouraged to contribute to the community’s growth. |
 
-## 3.3. knowledge sharing rule
+### **Usage:**
 
-## 3.4. SPES CURRENCY pot
+- **Roll a 1d20** to assess the **social values**, **crime levels**, and **community reception** in the rural area.
+- The result can help determine the character’s **level of acceptance** within the community and provide context for interactions, challenges, and opportunities for collaboration.
 
-## 3.5. Role of celebration in cross bio regional dissemination (and TRANSFORMING THE gray coin INTO WHITE AND RED)
-
-# 4. GAME MASTERING TIPS
+This table enables players to navigate social dynamics in the rural area, influencing their strategies for integration and engagement while highlighting the impact of crime and social cohesion on their journey.
 
 
+
+## TEMPLATE OF SKILLS AND ROLES
+
+### **Environmental and Land-Based Skills**
+
+ 1. **Permaculture Design** – Creating sustainable ecosystems for food production and land regeneration.
+ 2. **Foraging** – Identifying and gathering wild edible plants, herbs, and mushrooms.
+ 3. **Water Conservation** – Techniques for managing water resources in arid climates.
+ 4. **Soil Restoration** – Methods for improving and maintaining soil health in degraded landscapes.
+ 5. **Drought-Resistant Farming** – Growing crops that thrive in dry, Mediterranean climates.
+ 6. **Terrace Farming** – Building and maintaining terraced fields on mountain slopes.
+ 7. **Composting** – Creating and managing compost to enrich soil.
+ 8. **Natural Pest Control** – Using plants, animals, or organic methods to manage pests.
+ 9. **Olive Tree Cultivation** – Growing and harvesting olives, a staple crop in the Mediterranean.
+10. **Herbalism** – Identifying, cultivating, and using local herbs for medicine and cosmetics.
+
+### **Animal Husbandry and Wildlife**
+
+1. **Shepherding** – Managing goats or sheep for milk, meat, and wool production.
+2. **Bee-Keeping** – Raising bees for honey and pollination of crops.
+3. **Wildlife Tracking** – Tracking local wildlife like boars or foxes for hunting or conservation.
+4. **Cheese-Making** – Crafting artisanal cheeses from goat or sheep milk.
+5. **Hunting** – Tracking and hunting wild game for food and managing local wildlife populations.
+
+### **Craftsmanship and Traditional Skills**
+
+1. **Stone Masonry** – Building or repairing stone walls and houses, common in Mediterranean villages.
+2. **Carpentry** – Crafting furniture, buildings, or tools from locally sourced wood.
+3. **Weaving** – Creating fabrics or baskets using traditional techniques.
+4. **Leatherworking** – Producing goods from animal hides, such as clothing, tools, or containers.
+5. **Clay Pottery** – Making and firing pots, dishes, and storage vessels from local clay.
+
+### **Energy and Resource Management**
+
+1. **Solar Energy** – Installing and maintaining small-scale solar panels for homes and farms.
+2. **Firewood Management** – Collecting and managing wood sustainably for heating and cooking.
+3. **Wind Energy** – Building and maintaining small wind turbines to harness mountain breezes.
+4. **Natural Building** – Constructing homes using earth-friendly materials like cob, stone, or wood.
+5. **Rainwater Harvesting** – Setting up systems to capture and store rainwater for irrigation.
+
+### **Community and Cultural Skills**
+
+1. **Conflict Mediation** – Mediating disputes within a small, tightly-knit rural community.
+2. **Local History** – Knowledge of the region’s history, traditions, and cultural practices.
+3. **Event Organization** – Coordinating community events, festivals, or markets.
+4. **Bartering and Trade** – Negotiating exchanges of goods and services in a low-cash economy.
+5. **Storytelling** – Preserving and sharing oral traditions, myths, and histories of the region.
+
+### **Digital Nomad Skills**
+
+ 1. **Web Development** – Creating websites for local businesses, tourism, or community initiatives.
+ 2. **Graphic Design** – Designing visual materials like logos, packaging for local products, or tourism brochures.
+ 3. **Social Media Marketing** – Promoting local crafts, eco-tourism, or agricultural products through online platforms.
+ 4. **E-commerce** – Setting up online stores to sell local goods (e.g., olive oil, artisanal crafts) to a global market.
+ 5. **Content Creation** – Producing blogs, videos, or podcasts about sustainable living, rural life, or the local culture.
+ 6. **Digital Photography** – Documenting the beauty of the region or helping locals market their products with professional photography.
+ 7. **Remote Teaching** – Offering online courses or workshops on anything from language learning to sustainable practices.
+ 8. **App Development** – Creating mobile apps for local tourism, environmental monitoring, or community planning.
+ 9. **IT Support** – Setting up and maintaining internet connections, troubleshooting tech problems, or helping locals integrate digital tools.
+10. **Cybersecurity** – Protecting digital infrastructure for local businesses or farms that are increasingly using online platforms.
+
+### **Sustainability and Innovation Skills**
+
+ 1. **3D Printing** – Using 3D printers to create tools, parts, or sustainable housing components for local projects.
+ 2. **Hydroponics** – Introducing hydroponic or aquaponic farming systems for growing food without soil, perfect for limited land space.
+ 3. **Vertical Gardening** – Implementing vertical gardens in small spaces to enhance food production in the community.
+ 4. **Drone Mapping** – Using drones to map the terrain, monitor wildlife, or help with land management and reforestation projects.
+ 5. **Remote Work Facilitation** – Setting up co-working spaces or remote offices to attract other digital nomads and provide infrastructure.
+ 6. **Blockchain for Supply Chains** – Creating transparent and sustainable supply chains using blockchain technology for local products.
+ 7. **Crowdfunding Management** – Organizing online fundraising campaigns to support local eco-projects or community initiatives.
+ 8. **Sustainable Packaging Design** – Designing eco-friendly packaging solutions for local products that can be sold internationally.
+ 9. **Data Analysis** – Collecting and analyzing data on local ecosystems, agriculture, or tourism trends to help the community make informed decisions.
+10. **Circular Economy Consulting** – Advising the community on how to reduce waste and reuse materials, integrating circular economy practices into local industries.
+
+### **Creative and Remote Collaboration Skills**
+
+ 1. **Film and Video Production** – Producing documentaries, short films, or promotional videos about the region’s culture and environment.
+ 2. **Music Production** – Setting up small recording studios or teaching locals how to produce music digitally, perhaps using traditional sounds and instruments.
+ 3. **Remote Project Management** – Coordinating community projects or collaborations with remote teams to improve sustainability efforts.
+ 4. **Virtual Reality (VR) Development** – Creating immersive virtual experiences that showcase the region’s landscapes and culture to global audiences.
+ 5. **Language Translation Services** – Offering translation or interpretation services for tourists or global partnerships.
+ 6. **Online Wellness Coaching** – Offering remote coaching or classes in yoga, meditation, or fitness, possibly integrating local landscapes into virtual sessions.
+ 7. **Sustainable Fashion Design** – Designing eco-friendly clothing using locally sourced materials and selling it through online platforms.
+ 8. **Digital Nomad Networking** – Connecting with other digital nomads to build a larger community and attract more people to the region.
+ 9. **Creative Writing** – Writing about the bioregion’s culture, history, or current sustainability efforts for blogs, books, or publications.
+10. **Online Fundraising** – Organizing digital fundraising campaigns to support local regenerative projects, eco-tourism, or preservation efforts.
+
+### **Service Skills for the Region**
+
+ 1. **Plumbing** – Installing and maintaining water systems for homes, farms, and irrigation setups.
+ 2. **Car Repair and Maintenance** – Fixing and maintaining vehicles, essential for getting around rural areas where public transport is scarce.
+ 3. **Computer Repair and Maintenance** – Providing technical support for computers, crucial for digital nomads and small local businesses.
+ 4. **Electrical Work** – Installing and maintaining electrical systems for homes, farms, and off-grid energy solutions.
+ 5. **Solar Panel Installation** – Setting up and repairing solar energy systems for homes and community buildings.
+ 6. **Wind Turbine Maintenance** – Maintaining small-scale wind turbines, common in mountainous and windy regions for off-grid power.
+ 7. **Masonry Repair** – Fixing stone walls, terraces, and old stone buildings that are common in Mediterranean mountain villages.
+ 8. **Roof Repair** – Maintaining and repairing roofs, especially tiled or thatched roofs common in rural settings.
+ 9. **General Handyman** – A jack-of-all-trades capable of basic carpentry, plumbing, painting, and minor home repairs.
+10. **Heating System Maintenance** – Maintaining and repairing fireplaces, wood-burning stoves, and solar thermal heating systems.
+
+### **Mechanical and Equipment Skills**
+
+1. **Small Engine Repair** – Fixing generators, chainsaws, or farming equipment like tillers and tractors.
+2. **Bicycle Repair** – Repairing and maintaining bicycles, which may be a popular eco-friendly form of transportation.
+3. **Water Pump Repair** – Fixing water pumps, essential for wells, irrigation, and off-grid living.
+4. **Farm Equipment Maintenance** – Maintaining tractors, tillers, and other agricultural machinery used in farming operations.
+5. **Blacksmithing** – Repairing tools and creating metal goods, often needed in traditional agriculture and building maintenance.
+6. **Ham Radio Operator** – Setting up and maintaining ham radio stations for communication in remote areas or emergencies.
+7. **Generator Repair** – Fixing backup power generators, critical for areas with unreliable electricity supplies.
+
+### **Transportation and Logistics Skills**
+
+1. **Boat Maintenance** – Fixing and maintaining small boats used in coastal or riverine areas.
+2. **Motorcycle Repair** – Servicing motorcycles and scooters, which may be more practical than cars in mountainous or rural areas.
+3. **Off-Road Vehicle Repair** – Specializing in repairs for 4x4s and other off-road vehicles that are vital for navigating rugged terrain.
+4. **Fuel Supply and Management** – Managing fuel supplies for vehicles and machinery, especially important for remote areas with few gas stations.
+5. **Courier Service** – Providing a delivery service between villages or to more remote areas, vital for communication and logistics.
+
+### **Communication and Technology Skills**
+
+1. **Ham Radio Communication** – Maintaining a communication network via ham radio for emergencies or long-distance community networking.
+2. **Internet and Wi-Fi Installation** – Setting up and troubleshooting internet connections, vital for remote workers and local businesses.
+3. **Telecom Infrastructure Repair** – Maintaining or repairing telecommunications towers, satellite dishes, or local phone lines.
+4. **Home Security System Installation** – Setting up basic home security systems, including cameras and alarm systems.
+5. **Telemedicine Support** – Helping set up and maintain equipment for remote healthcare or telemedicine consultations, vital in remote locations.
+
+### **Agriculture and Land Maintenance**
+
+1. **Irrigation System Maintenance** – Repairing and optimizing irrigation systems for farming and gardening, especially crucial in dry Mediterranean climates.
+2. **Greenhouse Maintenance** – Building and maintaining greenhouses for growing food year-round in the mountain climate.
+3. **Forest Management and Fire Prevention** – Managing forests to reduce fire risk, maintaining fire breaks, and creating sustainable woodlots.
+
+### **Health and Care Skills**
+
+ 1. **First Aid** – Providing immediate medical assistance in emergencies, crucial in remote areas.
+ 2. **Nursing** – Offering ongoing medical care, including monitoring health conditions and administering medications.
+ 3. **Mental Health Counseling** – Providing support and therapy for individuals dealing with stress, trauma, or mental health issues.
+ 4. **Traditional Herbal Medicine** – Using local herbs and plants for medicinal purposes, integrating traditional knowledge with modern practices.
+ 5. **Nutrition Counseling** – Advising on healthy eating and dietary practices based on local produce and sustainable practices.
+ 6. **Midwifery** – Assisting with childbirth and prenatal care, especially important in rural communities with limited access to hospitals.
+ 7. **Physical Therapy** – Offering rehabilitation and physical therapy services to help people recover from injuries or surgeries.
+ 8. **Elder Care** – Providing specialized care and support for the elderly, including companionship and assistance with daily activities.
+ 9. **Childcare and Early Childhood Education** – Caring for and educating young children, including organizing playgroups or educational activities.
+10. **Emergency Response Training** – Training community members in emergency response skills, including CPR and evacuation procedures.
+
+### **Schooling and Education Skills**
+
+ 1. **Teaching** – Providing formal education in subjects such as literacy, math, and local history to children and adults.
+ 2. **Outdoor Education** – Teaching skills related to outdoor survival, environmental awareness, and nature appreciation.
+ 3. **Vocational Training** – Offering courses in trades like carpentry, plumbing, or farming techniques, focusing on practical skills for local job markets.
+ 4. **Language Instruction** – Teaching local languages or foreign languages to promote communication and cultural exchange.
+ 5. **Arts and Crafts Instruction** – Teaching traditional crafts, music, or arts to preserve cultural heritage and promote creativity.
+ 6. **Community Workshops** – Organizing workshops on sustainability, gardening, cooking, or self-sufficiency for community members.
+ 7. **Tutoring** – Providing one-on-one support for students struggling in specific subjects or skills.
+ 8. **Technology Training** – Teaching community members how to use computers, software, and online tools, especially for digital nomads.
+ 9. **Conflict Resolution** – Training community members in skills for resolving disputes peacefully and collaboratively.
+10. **Parenting Support** – Offering resources and guidance for new parents on child development and parenting skills.
+
+### **Social Interaction Skills**
+
+  1. **Community Organizing** – Mobilizing community members for collective action, events, or initiatives.
+  2. **Public Speaking** – Effectively communicating ideas in community meetings or gatherings, vital for leadership roles.
+  3. **Event Planning** – Organizing community events, festivals, or workshops to foster social interaction and engagement.
+  4. **Cultural Mediation** – Bridging cultural differences between locals and newcomers to promote understanding and collaboration.
+  5. **Volunteering Coordination** – Organizing volunteer opportunities for locals and visitors to contribute to community projects.
+  6. **Social Media Management** – Utilizing social media to foster community engagement, share news, and promote local initiatives.
+  7. **Crisis Intervention** – Providing support and resources during community crises, such as natural disasters or economic challenges.
+  8. **Facilitation** – Leading discussions and meetings to ensure all voices are heard and fostering productive dialogue.
+  9. **Networking** – Building relationships between community members, local businesses, and external organizations for mutual support.
+ 10. **Cultural Exchange Programs** – Organizing exchanges or collaborations with other communities to promote diversity and cultural understanding.
+
+## Links to some further readings
+
+- Federico Bonelli, "Melting Down Identity: Towards a Pedagogy of Complexity", June 2024 In book: Achour, M, Manai, A., Ed., The Encounter Between Identity and Innovation: An explosive brake of creativity, Publisher: Edition D.A.C
+- Bonsiepe, G., ‘Design and Democracy’, *Design Issues*, 22/2 (2006), 27–34
+- Freire, P., *Pedagogy of the oppressed*, 30th anniversary ed ed. (Continuum, 2000)
+- Haraway, D. J., *Staying with the trouble: making kin in the Chthulucene*, (Duke University Press, 2016)
+- Holmgren, D., Permaculture Principles and Pathways, (Permanent Publications, 2011)
+- *The Moral Imagination: The Art and Soul of Building Peace*, Oxford University Press, 2005, [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier)) [0-19-517454-2](https://en.wikipedia.org/wiki/Special:BookSources/0-19-517454-2)
+- Lietaer, B. A. (2001). *The future of money: Beyond greed and scarcity*. Century.
+- Lietaer, B., & Dunne, J. (2013). *Rethinking money: How new currencies turn scarcity into prosperity*. Berrett-Koehler Publishers.
+- Petz, M. K., Bonelli, F., Eskelinen, T., "Le Grand Jeu and the potential of money games for exploring economic possibilities", February 2024 DOI: [10.36399/Degrowth.002.01.01](http://dx.doi.org/10.36399/Degrowth.002.01.01)
+- Pirsig, R. M., *Zen and the art of motorcycle maintenance: an inquiry into values*, (Harper Perennial Modern Classics, 2008)
+- Voshmgir, S. (2020). *Token economy: How the Web3 reinvents the internet, economy & society* (2nd ed.). BlockchainHub.
 
 # ABOUT THE AUTHORS
 
@@ -345,14 +619,12 @@ If you find yourself loosing the "fun element" try to make a short pause or give
 
 Fredd is passionate about creative research, a term without boundaries. He is interested in developing talent mentoring and consulting. Sometimes it involves walking in the woods blindfolded.
 
-His repertoire of experiences have led him to several EU funded research projects, a one-of-kind experimental projects. As an artist he has covered many roles in many projects in the years for independent cinema, theatre and performance, visual and digital arts. 
- Since 2012 he is running a laboratory for sustainable off the grid performance research named trasformatorio (www.trasformatorio.net). Trasformatorio is a neologism for Art Laboratory and Transformations. The methodological insight learned from the lab enriched the methodology “trasformatorio”.
+His repertoire of experiences have led him to several EU funded research projects, a one-of-kind experimental projects. As an artist he has covered many roles in many projects in the years for independent cinema, theatre and performance, visual and digital arts.
+Since 2012 he is running a laboratory for sustainable off the grid performance research named trasformatorio (www.trasformatorio.net). Trasformatorio is a neologism for Art Laboratory and Transformations. The methodological insight learned from the lab enriched the methodology “trasformatorio”.
 
- He has a degree in philosophy
+He has a degree in philosophy
 
- [fredd@trasformatorio.net](mailto:fredd@trasformatorio.net)
-
-
+[fredd@trasformatorio.net](mailto:fredd@trasformatorio.net)
 
 **Raffaella "raffa" Rovida**
 
@@ -362,34 +634,40 @@ She led the Research unit of the Copenhagen Institute of Interaction Design (www
 
 She has a degree in Civil Engineering from the University of Genoa (Italy) and a PhD in Sustainability and Regional Planning from the University of Brescia.
 
- [rr@raffaellarovida.eu](mailto:rr@raffaellarovida.eu)
+[rr@raffaellarovida.eu](mailto:rr@raffaellarovida.eu)
 
 
 
- 
+
+
+----
+
+
 
 # **CREDITS**
 
 - Co-Design sessions: 
-  - FIRENZE 2024
--  Test Players: 
+  - Florence (IT) - 23rd September 2024
+- Test Players:  
+  Matteo Belletti, Leonardo Boncinelli, Federico Bonelli, Andrea Ferrannini, Toa Giroletti, Luca Lodi, Alessio Magnolfi, Dario Menicagli, Simen Mørstad Johansen (online observer), Barbara Palla (video recording), Marcos Renato Preti, Mi Ah Schoyen (online observer).
+
+##### THANKS TO:
+
+The authors would like to thank all the players that helped us refine LGJ scenarios so far and will help in the future to shape reality of a better world. 
+
+##### LINKS
+
+[www.legrandjeu.net](http://www.legrandjeu.net) | @legrandjeu11 #legrandjeu
+
+You can find the necessary files for laser-cutting your own game set, and to print this booklet, on GitHub (<https://github.com/freddbomba/legrandjeu>).
+
+**CONTACT**
+
+Federico Bonelli, Stichting Trasformatorio Linnaeusparkweg 113-iii 1098CV Amsterdam
+www.legrandjeu.net | twitter @legrandjeu11
 
 
 
+© 2016-2024 Federico Bonelli – Raffaella Rovida - This work is licensed under
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 
-
-THANKS TO: 
-
-
-
-© 2016-2021 Federico Bonelli – Raffaella Rovida
-
-
- This work is licensed under
- Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
-
-
-
-
-
-www.legrandjeu.net | twitter @legrandjeu11 
